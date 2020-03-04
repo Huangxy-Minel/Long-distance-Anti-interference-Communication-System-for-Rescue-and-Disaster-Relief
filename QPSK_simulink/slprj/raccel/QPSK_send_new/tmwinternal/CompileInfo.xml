@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<MF0 version="1.1">
+    <ModelRefInfoRepo.ModelRefInfoRoot type="ModelRefInfoRepo.ModelRefInfoRoot" uuid="b3921c7e-f217-454d-b48f-1df22145c1f3">
+        <dataDictionary/>
+        <dataTransferInfos>AAFJTQAAAAAOAAAAOAAAAAYAAAAIAAAAAgAAAAAAAAAFAAAACAAAAAAAAAABAAAAAQAAAAAAAAAFAAQAAQAAAAEAAAAAAAAA</dataTransferInfos>
+        <hasInlineVariantBlock>false</hasInlineVariantBlock>
+        <hasMachineDataAccess>false</hasMachineDataAccess>
+        <hasSigObjWithICDrivingRootOutport>false</hasSigObjWithICDrivingRootOutport>
+        <needElapsedTime>false</needElapsedTime>
+        <userSpecifiedFixedStepSize>0</userSpecifiedFixedStepSize>
+        <zeroInternalMemoryAtStartupUnchecked>false</zeroInternalMemoryAtStartupUnchecked>
+        <FMUBlockMap type="ModelRefInfoRepo.FMUBlockInfo" uuid="1bb8b00b-dcfe-4aea-ae59-2dfba8e0de68"/>
+        <periodicEventPortUnsupportedBlockInfo type="ModelRefInfoRepo.PeriodicEventPortUnsupportedBlockInfo" uuid="4af50da5-aa17-48df-966e-ed120f4817a2">
+            <hasHiddenDeterministicRTB>false</hasHiddenDeterministicRTB>
+            <multiRateBlocks>QPSK_send_new/Buffer2</multiRateBlocks>
+        </periodicEventPortUnsupportedBlockInfo>
+        <simulinkFunctions type="ModelRefInfoRepo.SimulinkFunctions" uuid="52514eae-36f7-4a50-9678-cef6c72c159e">
+            <compSimulinkFunctionCatalog>AAFJTQAAAAAOAAAAgAAAAAYAAAAIAAAAAgAAAAAAAAAFAAAACAAAAAEAAAABAAAAAQAAAAAAAAAFAAQADgAAAAEAAAAOAAAAQ29tcEZ1bmN0aW9ucwAAAA4AAAAwAAAABgAAAAgAAAAGAAAAAAAAAAUAAAAIAAAAAAAAAAAAAAABAAAAAAAAAAkAAAAAAAAA</compSimulinkFunctionCatalog>
+            <postPropHasAnyExportedFunction>false</postPropHasAnyExportedFunction>
+            <postPropHasAnyVariantExportedFunction>false</postPropHasAnyVariantExportedFunction>
+        </simulinkFunctions>
+    </ModelRefInfoRepo.ModelRefInfoRoot>
+</MF0>

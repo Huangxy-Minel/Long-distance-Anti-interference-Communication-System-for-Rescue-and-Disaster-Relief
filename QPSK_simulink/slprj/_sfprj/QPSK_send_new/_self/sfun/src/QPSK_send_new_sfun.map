@@ -1,0 +1,1573 @@
+ QPSK_send_new_sfun
+
+ Timestamp is 5de1e2b5 (Sat Nov 30 11:32:05 2019)
+
+ Preferred load address is 0000000180000000
+
+ Start         Length     Name                   Class
+ 0001:00000000 0000e950H .text$mn                CODE
+ 0001:0000e950 00000012H .text$mn$00             CODE
+ 0001:0000e962 00000081H .text$x                 CODE
+ 0002:00000000 00000498H .idata$5                DATA
+ 0002:00000498 00000010H .00cfg                  DATA
+ 0002:000004a8 00000008H .CRT$XCA                DATA
+ 0002:000004b0 00000008H .CRT$XCZ                DATA
+ 0002:000004b8 00000008H .CRT$XIA                DATA
+ 0002:000004c0 00000008H .CRT$XIZ                DATA
+ 0002:000004c8 00000008H .CRT$XPA                DATA
+ 0002:000004d0 00000008H .CRT$XPZ                DATA
+ 0002:000004d8 00000008H .CRT$XTA                DATA
+ 0002:000004e0 00000010H .CRT$XTZ                DATA
+ 0002:000004e8 00000000H .gfids$y                DATA
+ 0002:000004f0 00000220H .rdata                  DATA
+ 0002:00000710 00000218H .rdata$zzzdbg           DATA
+ 0002:00000928 00000008H .rtc$IAA                DATA
+ 0002:00000930 00000008H .rtc$IZZ                DATA
+ 0002:00000938 00000008H .rtc$TAA                DATA
+ 0002:00000940 00000008H .rtc$TZZ                DATA
+ 0002:00000948 000008c8H .xdata                  DATA
+ 0002:00001210 0000007cH .edata                  DATA
+ 0002:0000128c 000000c8H .idata$2                DATA
+ 0002:00001354 00000014H .idata$3                DATA
+ 0002:00001368 00000498H .idata$4                DATA
+ 0002:00001800 00000de0H .idata$6                DATA
+ 0003:00000000 00002790H .data                   DATA
+ 0003:00002790 00001638H .bss                    DATA
+ 0004:00000000 00000a50H .pdata                  DATA
+
+  Address         Publics by Value              Rva+Base               Lib:Object
+
+ 0000:00000000       ___safe_se_handler_count   0000000000000000     <absolute>
+ 0000:00000000       __hybrid_code_map_count    0000000000000000     <absolute>
+ 0000:00000000       __dynamic_value_reloc_table 0000000000000000     <absolute>
+ 0000:00000000       __guard_iat_table          0000000000000000     <absolute>
+ 0000:00000000       __guard_iat_count          0000000000000000     <absolute>
+ 0000:00000000       __volatile_metadata        0000000000000000     <absolute>
+ 0000:00000000       __guard_fids_count         0000000000000000     <absolute>
+ 0000:00000000       __guard_longjmp_table      0000000000000000     <absolute>
+ 0000:00000000       __guard_longjmp_count      0000000000000000     <absolute>
+ 0000:00000000       __hybrid_code_map          0000000000000000     <absolute>
+ 0000:00000000       __hybrid_auxiliary_iat     0000000000000000     <absolute>
+ 0000:00000000       __enclave_config           0000000000000000     <absolute>
+ 0000:00000000       __guard_fids_table         0000000000000000     <absolute>
+ 0000:00000000       ___safe_se_handler_table   0000000000000000     <absolute>
+ 0000:00000100       __guard_flags              0000000000000100     <absolute>
+ 0000:00000000       __ImageBase                0000000180000000     <linker-defined>
+ 0001:00000000       QPSK_send_new_initializer  0000000180001000 f   QPSK_send_new_sfun.obj
+ 0001:00000010       QPSK_send_new_terminator   0000000180001010 f   QPSK_send_new_sfun.obj
+ 0001:00000020       load_QPSK_send_new_optimization_info 0000000180001020 f   QPSK_send_new_sfun.obj
+ 0001:000000d0       unload_QPSK_send_new_optimization_info 00000001800010d0 f   QPSK_send_new_sfun.obj
+ 0001:00000100       sf_QPSK_send_new_method_dispatcher 0000000180001100 f   QPSK_send_new_sfun.obj
+ 0001:00000150       sf_QPSK_send_new_process_check_sum_call 0000000180001150 f   QPSK_send_new_sfun.obj
+ 0001:00000640       sf_QPSK_send_new_autoinheritance_info 0000000180001640 f   QPSK_send_new_sfun.obj
+ 0001:00000820       sf_QPSK_send_new_get_eml_resolved_functions_info 0000000180001820 f   QPSK_send_new_sfun.obj
+ 0001:00000a00       sf_QPSK_send_new_third_party_uses_info 0000000180001a00 f   QPSK_send_new_sfun.obj
+ 0001:00000bd0       sf_QPSK_send_new_jit_fallback_info 0000000180001bd0 f   QPSK_send_new_sfun.obj
+ 0001:00000da0       sf_QPSK_send_new_updateBuildInfo_args_info 0000000180001da0 f   QPSK_send_new_sfun.obj
+ 0001:00000f70       QPSK_send_new_debug_initialize 0000000180001f70 f   QPSK_send_new_sfun.obj
+ 0001:00000ff0       QPSK_send_new_register_exported_symbols 0000000180001ff0 f   QPSK_send_new_sfun.obj
+ 0001:00001000       sf_c2_QPSK_send_new_get_eml_resolved_functions_info 0000000180002000 f   c2_QPSK_send_new.obj
+ 0001:00001080       sf_c2_QPSK_send_new_get_check_sum 0000000180002080 f   c2_QPSK_send_new.obj
+ 0001:00001150       c2_QPSK_send_new_method_dispatcher 0000000180002150 f   c2_QPSK_send_new.obj
+ 0001:00002bc0       sf_c2_QPSK_send_new_get_post_codegen_info 0000000180003bc0 f   c2_QPSK_send_new.obj
+ 0001:00002c90       sf_c2_QPSK_send_new_get_autoinheritance_info 0000000180003c90 f   c2_QPSK_send_new.obj
+ 0001:00003140       sf_c2_QPSK_send_new_third_party_uses_info 0000000180004140 f   c2_QPSK_send_new.obj
+ 0001:00003170       sf_c2_QPSK_send_new_jit_fallback_info 0000000180004170 f   c2_QPSK_send_new.obj
+ 0001:00003300       sf_c2_QPSK_send_new_updateBuildInfo_args_info 0000000180004300 f   c2_QPSK_send_new.obj
+ 0001:00003f90       mexFunction                0000000180004f90 f   QPSK_send_new_sfun_registry.obj
+ 0001:00006550       _ssSetInputPortDirectFeedThroughFcn 0000000180007550 f   QPSK_send_new_sfun_registry.obj
+ 0001:000066c0       _ssGetInputPortSignalPtrsFcn 00000001800076c0 f   QPSK_send_new_sfun_registry.obj
+ 0001:00006a50       _ssGetInputPortSignalFcn   0000000180007a50 f   QPSK_send_new_sfun_registry.obj
+ 0001:00006de0       _ssSetInputPortReusableFcn 0000000180007de0 f   QPSK_send_new_sfun_registry.obj
+ 0001:00006ee0       _ssSetOutputPortReusableFcn 0000000180007ee0 f   QPSK_send_new_sfun_registry.obj
+ 0001:00006fe0       _ssSetSymbolicDimsSupport  0000000180007fe0 f   QPSK_send_new_sfun_registry.obj
+ 0001:00007050       _ssRegisterSymbolicDimsExpr 0000000180008050 f   QPSK_send_new_sfun_registry.obj
+ 0001:000070d0       _ssRegisterSymbolicDims    00000001800080d0 f   QPSK_send_new_sfun_registry.obj
+ 0001:00007170       _ssRegisterSymbolicDimsString 0000000180008170 f   QPSK_send_new_sfun_registry.obj
+ 0001:000071f0       _ssRegisterSymbolicDimsIntValue 00000001800081f0 f   QPSK_send_new_sfun_registry.obj
+ 0001:00007260       _ssRegisterSymbolicDimsPlus 0000000180008260 f   QPSK_send_new_sfun_registry.obj
+ 0001:000072e0       _ssRegisterSymbolicDimsMinus 00000001800082e0 f   QPSK_send_new_sfun_registry.obj
+ 0001:00007360       _ssRegisterSymbolicDimsMultiply 0000000180008360 f   QPSK_send_new_sfun_registry.obj
+ 0001:000073e0       _ssRegisterSymbolicDimsDivide 00000001800083e0 f   QPSK_send_new_sfun_registry.obj
+ 0001:00007460       _ssGetNumSymbolicDims      0000000180008460 f   QPSK_send_new_sfun_registry.obj
+ 0001:000074d0       _ssGetSymbolicDim          00000001800084d0 f   QPSK_send_new_sfun_registry.obj
+ 0001:00007550       _ssSetInputPortSymbolicDimsId 0000000180008550 f   QPSK_send_new_sfun_registry.obj
+ 0001:000075c0       _ssGetCompInputPortSymbolicDimsId 00000001800085c0 f   QPSK_send_new_sfun_registry.obj
+ 0001:00007630       _ssSetCompInputPortSymbolicDimsId 0000000180008630 f   QPSK_send_new_sfun_registry.obj
+ 0001:000076a0       _ssSetOutputPortSymbolicDimsId 00000001800086a0 f   QPSK_send_new_sfun_registry.obj
+ 0001:00007710       _ssGetCompOutputPortSymbolicDimsId 0000000180008710 f   QPSK_send_new_sfun_registry.obj
+ 0001:00007780       _ssSetCompOutputPortSymbolicDimsId 0000000180008780 f   QPSK_send_new_sfun_registry.obj
+ 0001:000077f0       _ssSetCompDWorkSymbolicDimsId 00000001800087f0 f   QPSK_send_new_sfun_registry.obj
+ 0001:00007860       ssGetIsZeroCrossControlDisabled 0000000180008860 f   QPSK_send_new_sfun_registry.obj
+ 0001:000078d0       ssSetIsInputPortUsedForContZcSignal 00000001800088d0 f   QPSK_send_new_sfun_registry.obj
+ 0001:00007940       ssSetZcSignalIsZcElementDisc 0000000180008940 f   QPSK_send_new_sfun_registry.obj
+ 0001:000079f0       ssSetZcSignalName          00000001800089f0 f   QPSK_send_new_sfun_registry.obj
+ 0001:00007a60       ssSetZcSignalWidth         0000000180008a60 f   QPSK_send_new_sfun_registry.obj
+ 0001:00007ad0       ssSetZcSignalZcEventType   0000000180008ad0 f   QPSK_send_new_sfun_registry.obj
+ 0001:00007b40       ssSetZcSignalType          0000000180008b40 f   QPSK_send_new_sfun_registry.obj
+ 0001:00007bb0       ssSetZcSignalZcTol         0000000180008bb0 f   QPSK_send_new_sfun_registry.obj
+ 0001:00007c20       ssSetZcSignalNeedsEventNotification 0000000180008c20 f   QPSK_send_new_sfun_registry.obj
+ 0001:00007c90       ssCreateAndAddZcSignalInfo 0000000180008c90 f   QPSK_send_new_sfun_registry.obj
+ 0001:00007d00       ssCloneAndAddZcSignalInfo  0000000180008d00 f   QPSK_send_new_sfun_registry.obj
+ 0001:00007d70       ssGetNumZcSignals          0000000180008d70 f   QPSK_send_new_sfun_registry.obj
+ 0001:00007de0       ssGetZcSignalVector        0000000180008de0 f   QPSK_send_new_sfun_registry.obj
+ 0001:00007e50       ssGetZcSignalName          0000000180008e50 f   QPSK_send_new_sfun_registry.obj
+ 0001:00007ec0       ssGetZcSignalWidth         0000000180008ec0 f   QPSK_send_new_sfun_registry.obj
+ 0001:00007f30       ssGetZcSignalZcEventType   0000000180008f30 f   QPSK_send_new_sfun_registry.obj
+ 0001:00007fa0       ssGetZcSignalZcEvents      0000000180008fa0 f   QPSK_send_new_sfun_registry.obj
+ 0001:00008010       ssGetZcSignalType          0000000180009010 f   QPSK_send_new_sfun_registry.obj
+ 0001:00008080       ssGetZcSignalZcTol         0000000180009080 f   QPSK_send_new_sfun_registry.obj
+ 0001:00008100       ssGetZcSignalNeedsEventNotification 0000000180009100 f   QPSK_send_new_sfun_registry.obj
+ 0001:00008170       ssGetZcSignalIsZcElementDisc 0000000180009170 f   QPSK_send_new_sfun_registry.obj
+ 0001:00008210       ssGetIsInputPortElementContinuous 0000000180009210 f   QPSK_send_new_sfun_registry.obj
+ 0001:000082b0       _ssSetIWorkValueFcn        00000001800092b0 f   QPSK_send_new_sfun_registry.obj
+ 0001:00008330       _ssGetIWorkValueFcn        0000000180009330 f   QPSK_send_new_sfun_registry.obj
+ 0001:000083a0       _ssSetRWorkValueFcn        00000001800093a0 f   QPSK_send_new_sfun_registry.obj
+ 0001:00008420       _ssGetRWorkValueFcn        0000000180009420 f   QPSK_send_new_sfun_registry.obj
+ 0001:00008490       _ssSetPWorkValueFcn        0000000180009490 f   QPSK_send_new_sfun_registry.obj
+ 0001:00008510       _ssGetPWorkValueFcn        0000000180009510 f   QPSK_send_new_sfun_registry.obj
+ 0001:00008580       ssGetDTypeIdFromMxArray    0000000180009580 f   QPSK_send_new_sfun_registry.obj
+ 0001:000086a0       ssWriteRTWStr              00000001800096a0 f   QPSK_send_new_sfun_registry.obj
+ 0001:00008700       ssWriteRTWNameValuePair    0000000180009700 f   QPSK_send_new_sfun_registry.obj
+ 0001:00008c00       ssWriteRTWParamSettings    0000000180009c00 f   QPSK_send_new_sfun_registry.obj
+ 0001:000092f0       ssWriteRTWParameters       000000018000a2f0 f   QPSK_send_new_sfun_registry.obj
+ 0001:000098b0       ssWriteRTWWorkVect         000000018000a8b0 f   QPSK_send_new_sfun_registry.obj
+ 0001:00009e10       ssWriteRTWMxVectParam      000000018000ae10 f   QPSK_send_new_sfun_registry.obj
+ 0001:00009e90       ssWriteRTWMx2dMatParam     000000018000ae90 f   QPSK_send_new_sfun_registry.obj
+ 0001:00009f20       _ssSetInputPortMatrixDimensions 000000018000af20 f   QPSK_send_new_sfun_registry.obj
+ 0001:0000a040       _ssSetOutputPortMatrixDimensions 000000018000b040 f   QPSK_send_new_sfun_registry.obj
+ 0001:0000a160       _ssSetInputPortVectorDimension 000000018000b160 f   QPSK_send_new_sfun_registry.obj
+ 0001:0000a210       _ssSetOutputPortVectorDimension 000000018000b210 f   QPSK_send_new_sfun_registry.obj
+ 0001:0000a2c0       ssIsRunTimeParamTunable    000000018000b2c0 f   QPSK_send_new_sfun_registry.obj
+ 0001:0000a330       ssGetSFuncBlockHandle      000000018000b330 f   QPSK_send_new_sfun_registry.obj
+ 0001:0000a3a0       _ssGetCurrentInputPortWidth 000000018000b3a0 f   QPSK_send_new_sfun_registry.obj
+ 0001:0000a4c0       _ssGetCurrentOutputPortWidth 000000018000b4c0 f   QPSK_send_new_sfun_registry.obj
+ 0001:0000a5e0       _ssGetCallSystemNumFcnCallDestinations 000000018000b5e0 f   QPSK_send_new_sfun_registry.obj
+ 0001:0000a650       ssGetParameterTuningCompliance 000000018000b650 f   QPSK_send_new_sfun_registry.obj
+ 0001:0000a6c0       ssWarning                  000000018000b6c0 f   QPSK_send_new_sfun_registry.obj
+ 0001:0000a7b0       _ssGetAbsTol               000000018000b7b0 f   QPSK_send_new_sfun_registry.obj
+ 0001:0000a820       _ssSetStateAbsTol          000000018000b820 f   QPSK_send_new_sfun_registry.obj
+ 0001:0000a900       sf_process_check_sum_call  000000018000b900 f   QPSK_send_new_sfun_registry.obj
+ 0001:0000a950       sf_process_autoinheritance_call 000000018000b950 f   QPSK_send_new_sfun_registry.obj
+ 0001:0000ab80       sf_process_get_third_party_uses_info_call 000000018000bb80 f   QPSK_send_new_sfun_registry.obj
+ 0001:0000adb0       sf_process_get_jit_fallback_info_call 000000018000bdb0 f   QPSK_send_new_sfun_registry.obj
+ 0001:0000afe0       sf_process_get_updateBuildInfo_args_info_call 000000018000bfe0 f   QPSK_send_new_sfun_registry.obj
+ 0001:0000b210       sf_process_get_eml_resolved_functions_info_call 000000018000c210 f   QPSK_send_new_sfun_registry.obj
+ 0001:0000b440       sf_mex_unlock_call         000000018000c440 f   QPSK_send_new_sfun_registry.obj
+ 0001:0000b6e0       sf_machine_global_initializer_called 000000018000c6e0 f   QPSK_send_new_sfun_registry.obj
+ 0001:0000b710       sf_machine_global_method_dispatcher 000000018000c710 f   QPSK_send_new_sfun_registry.obj
+ 0001:0000b770       sf_machine_global_terminator 000000018000c770 f   QPSK_send_new_sfun_registry.obj
+ 0001:0000b7c0       sf_register_machine_exported_symbols 000000018000c7c0 f   QPSK_send_new_sfun_registry.obj
+ 0001:0000b7e0       callCustomFcn              000000018000c7e0 f   QPSK_send_new_sfun_registry.obj
+ 0001:0000b7f0       sf_machine_global_initializer 000000018000c7f0 f   QPSK_send_new_sfun_registry.obj
+ 0001:0000b870       mdlGetSimState             000000018000c870 f   QPSK_send_new_sfun_registry.obj
+ 0001:0000b8b0       mdlSetSimState             000000018000c8b0 f   QPSK_send_new_sfun_registry.obj
+ 0001:0000c120       ProcessMexSfunctionEveryCall 000000018000d120 f   QPSK_send_new_sfun_registry.obj
+ 0001:0000d180       __local_stdio_printf_options 000000018000e180 f i QPSK_send_new_sfun_registry.obj
+ 0001:0000d190       _vsnprintf_l               000000018000e190 f i QPSK_send_new_sfun_registry.obj
+ 0001:0000d210       _vsprintf_l                000000018000e210 f i QPSK_send_new_sfun_registry.obj
+ 0001:0000d260       sprintf                    000000018000e260 f i QPSK_send_new_sfun_registry.obj
+ 0001:0000d2b0       mexfilerequiredapiversion  000000018000e2b0 f   c_mexapi_version.obj
+ 0001:0000d2d1       sf_load_rtw_optimization_info 000000018000e2d1 f   sf_runtime:sf_runtime.dll
+ 0001:0000d2d7       sf_debug_initialize_machine 000000018000e2d7 f   sf_runtime:sf_runtime.dll
+ 0001:0000d2dd       sf_debug_set_machine_event_thresholds 000000018000e2dd f   sf_runtime:sf_runtime.dll
+ 0001:0000d2e3       sf_debug_set_machine_data_thresholds 000000018000e2e3 f   sf_runtime:sf_runtime.dll
+ 0001:0000d2e9       sf_init_ChartRunTimeInfo   000000018000e2e9 f   sf_runtime:sf_runtime.dll
+ 0001:0000d2ef       sf_free_ChartRunTimeInfo   000000018000e2ef f   sf_runtime:sf_runtime.dll
+ 0001:0000d2f5       sfrtGetEmlrtCtx            000000018000e2f5 f   sf_runtime:sf_runtime.dll
+ 0001:0000d2fb       sf_get_chart_instance_ptr  000000018000e2fb f   sf_runtime:sf_runtime.dll
+ 0001:0000d301       sf_rtw_info_uint_prop      000000018000e301 f   sf_runtime:sf_runtime.dll
+ 0001:0000d307       sf_update_buildInfo        000000018000e307 f   sf_runtime:sf_runtime.dll
+ 0001:0000d30d       sf_is_chart_inlinable      000000018000e30d f   sf_runtime:sf_runtime.dll
+ 0001:0000d313       sf_mark_chart_reusable_outputs 000000018000e313 f   sf_runtime:sf_runtime.dll
+ 0001:0000d319       sf_mark_chart_expressionable_inputs 000000018000e319 f   sf_runtime:sf_runtime.dll
+ 0001:0000d31f       sim_mode_is_rtw_gen        000000018000e31f f   sf_runtime:sf_runtime.dll
+ 0001:0000d325       sim_mode_is_external       000000018000e325 f   sf_runtime:sf_runtime.dll
+ 0001:0000d32b       sim_mode_is_modelref_sim   000000018000e32b f   sf_runtime:sf_runtime.dll
+ 0001:0000d331       sf_clear_rtw_identifier    000000018000e331 f   sf_runtime:sf_runtime.dll
+ 0001:0000d337       sf_set_rtw_dwork_info      000000018000e337 f   sf_runtime:sf_runtime.dll
+ 0001:0000d33d       sf_get_time                000000018000e33d f   sf_runtime:sf_runtime.dll
+ 0001:0000d343       sf_is_first_init_cond      000000018000e343 f   sf_runtime:sf_runtime.dll
+ 0001:0000d349       sf_set_chart_accesses_machine_info 000000018000e349 f   sf_runtime:sf_runtime.dll
+ 0001:0000d34f       sf_register_codegen_names_for_scoped_functions_defined_by_chart 000000018000e34f f   sf_runtime:sf_runtime.dll
+ 0001:0000d355       ssSetBlockIsPurelyCombinatorial_wrapper 000000018000e355 f   sf_runtime:sf_runtime.dll
+ 0001:0000d35b       sf_mex_error_message       000000018000e35b f   sf_runtime:sf_runtime.dll
+ 0001:0000d361       sf_mex_create              000000018000e361 f   sf_runtime:sf_runtime.dll
+ 0001:0000d367       sf_mex_createcellmatrix    000000018000e367 f   sf_runtime:sf_runtime.dll
+ 0001:0000d36d       sf_mex_setcell             000000018000e36d f   sf_runtime:sf_runtime.dll
+ 0001:0000d373       sf_mex_getcell             000000018000e373 f   sf_runtime:sf_runtime.dll
+ 0001:0000d379       sf_mex_assign              000000018000e379 f   sf_runtime:sf_runtime.dll
+ 0001:0000d37f       sf_mex_dup                 000000018000e37f f   sf_runtime:sf_runtime.dll
+ 0001:0000d385       sf_mex_destroy             000000018000e385 f   sf_runtime:sf_runtime.dll
+ 0001:0000d38b       sf_mex_import              000000018000e38b f   sf_runtime:sf_runtime.dll
+ 0001:0000d391       sf_mex_decode_encoded_mx_struct_array 000000018000e391 f   sf_runtime:sf_runtime.dll
+ 0001:0000d397       ssGetInputPortSignal_wrapper 000000018000e397 f   sf_runtime:sf_runtime.dll
+ 0001:0000d39d       ssGetOutputPortSignal_wrapper 000000018000e39d f   sf_runtime:sf_runtime.dll
+ 0001:0000d3a3       sf_debug_initialize_chart  000000018000e3a3 f   sf_runtime:sf_runtime.dll
+ 0001:0000d3a9       sf_debug_call              000000018000e3a9 f   sf_runtime:sf_runtime.dll
+ 0001:0000d3af       eml_debug_line_call        000000018000e3af f   sf_runtime:sf_runtime.dll
+ 0001:0000d3b5       cv_eml_eval                000000018000e3b5 f   sf_runtime:sf_runtime.dll
+ 0001:0000d3bb       cv_eml_init_script         000000018000e3bb f   sf_runtime:sf_runtime.dll
+ 0001:0000d3c1       cv_eml_init_fcn            000000018000e3c1 f   sf_runtime:sf_runtime.dll
+ 0001:0000d3c7       sf_debug_reset_current_state_configuration 000000018000e3c7 f   sf_runtime:sf_runtime.dll
+ 0001:0000d3cd       sf_debug_check_for_state_inconsistency 000000018000e3cd f   sf_runtime:sf_runtime.dll
+ 0001:0000d3d3       sf_debug_set_chart_data_props 000000018000e3d3 f   sf_runtime:sf_runtime.dll
+ 0001:0000d3d9       sf_debug_set_chart_data_compiled_props 000000018000e3d9 f   sf_runtime:sf_runtime.dll
+ 0001:0000d3df       sf_debug_symbol_scope_push 000000018000e3df f   sf_runtime:sf_runtime.dll
+ 0001:0000d3e5       sf_debug_symbol_scope_push_eml 000000018000e3e5 f   sf_runtime:sf_runtime.dll
+ 0001:0000d3eb       sf_debug_symbol_scope_pop  000000018000e3eb f   sf_runtime:sf_runtime.dll
+ 0001:0000d3f1       sf_debug_symbol_scope_add_eml 000000018000e3f1 f   sf_runtime:sf_runtime.dll
+ 0001:0000d3f7       sf_debug_symbol_scope_add_eml_importable 000000018000e3f7 f   sf_runtime:sf_runtime.dll
+ 0001:0000d3fd       sf_debug_set_instance_data_value_ptr 000000018000e3fd f   sf_runtime:sf_runtime.dll
+ 0001:0000d403       sf_debug_set_chart_disable_implicit_casting 000000018000e403 f   sf_runtime:sf_runtime.dll
+ 0001:0000d409       sf_debug_set_chart_event_thresholds 000000018000e409 f   sf_runtime:sf_runtime.dll
+ 0001:0000d40f       sf_debug_set_chart_state_info 000000018000e40f f   sf_runtime:sf_runtime.dll
+ 0001:0000d415       sf_debug_set_chart_decomposition 000000018000e415 f   sf_runtime:sf_runtime.dll
+ 0001:0000d41b       sf_debug_set_chart_substate_count 000000018000e41b f   sf_runtime:sf_runtime.dll
+ 0001:0000d421       sf_debug_data_range_wrapper 000000018000e421 f   sf_runtime:sf_runtime.dll
+ 0001:0000d427       sf_debug_cv_init_trans     000000018000e427 f   sf_runtime:sf_runtime.dll
+ 0001:0000d42d       sf_debug_cv_init_chart     000000018000e42d f   sf_runtime:sf_runtime.dll
+ 0001:0000d433       sf_debug_cv_init_state     000000018000e433 f   sf_runtime:sf_runtime.dll
+ 0001:0000d439       sf_get_ChartInfoStruct_CodeGen 000000018000e439 f   sf_runtime:sf_runtime.dll
+ 0001:0000d43f       sf_get_hasSeparateUpdateOutputs 000000018000e43f f   sf_runtime:sf_runtime.dll
+ 0001:0000d445       callMdlMethodAndReportError 000000018000e445 f   sf_runtime:sf_runtime.dll
+ 0001:0000d44b       call_sf_machine_global_method_dispatcher 000000018000e44b f   sf_runtime:sf_runtime.dll
+ 0001:0000d451       getRuntimeInstanceInfoAsVoid 000000018000e451 f   sf_runtime:sf_runtime.dll
+ 0001:0000d457       sf_mex_error_direct_call   000000018000e457 f   sf_runtime:sf_runtime.dll
+ 0001:0000d45d       sf_clear_error_manager_info 000000018000e45d f   sf_runtime:sf_runtime.dll
+ 0001:0000d463       sf_debug_create_debug_instance_struct 000000018000e463 f   sf_runtime:sf_runtime.dll
+ 0001:0000d469       sf_debug_terminate         000000018000e469 f   sf_runtime:sf_runtime.dll
+ 0001:0000d46f       sf_debug_api               000000018000e46f f   sf_runtime:sf_runtime.dll
+ 0001:0000d475       mxIsChar                   000000018000e475 f   libmx:libmx.dll
+ 0001:0000d47b       mxGetPr                    000000018000e47b f   libmx:libmx.dll
+ 0001:0000d481       mxGetScalar                000000018000e481 f   libmx:libmx.dll
+ 0001:0000d487       mxDestroyArray             000000018000e487 f   libmx:libmx.dll
+ 0001:0000d48d       mxCreateDoubleMatrix_730   000000018000e48d f   libmx:libmx.dll
+ 0001:0000d493       mxGetString_730            000000018000e493 f   libmx:libmx.dll
+ 0001:0000d499       mxDuplicateArray           000000018000e499 f   libmx:libmx.dll
+ 0001:0000d49f       mxSetField_730             000000018000e49f f   libmx:libmx.dll
+ 0001:0000d4a5       mxCreateDoubleScalar       000000018000e4a5 f   libmx:libmx.dll
+ 0001:0000d4ab       mxCreateString             000000018000e4ab f   libmx:libmx.dll
+ 0001:0000d4b1       mxCreateCellMatrix_730     000000018000e4b1 f   libmx:libmx.dll
+ 0001:0000d4b7       mxCreateCellArray_730      000000018000e4b7 f   libmx:libmx.dll
+ 0001:0000d4bd       mxCreateStructMatrix_730   000000018000e4bd f   libmx:libmx.dll
+ 0001:0000d4c3       mxCreateStructArray_730    000000018000e4c3 f   libmx:libmx.dll
+ 0001:0000d4c9       mxCalloc                   000000018000e4c9 f   libmx:libmx.dll
+ 0001:0000d4cf       mxGetM                     000000018000e4cf f   libmx:libmx.dll
+ 0001:0000d4d5       mxGetClassID               000000018000e4d5 f   libmx:libmx.dll
+ 0001:0000d4db       mxIsNumeric                000000018000e4db f   libmx:libmx.dll
+ 0001:0000d4e1       mxIsComplex                000000018000e4e1 f   libmx:libmx.dll
+ 0001:0000d4e7       mxGetN                     000000018000e4e7 f   libmx:libmx.dll
+ 0001:0000d4ed       mexMakeArrayPersistent     000000018000e4ed f   libmex:libmex.dll
+ 0001:0000d4f3       mexErrMsgTxt               000000018000e4f3 f   libmex:libmex.dll
+ 0001:0000d4f9       mexWarnMsgTxt              000000018000e4f9 f   libmex:libmex.dll
+ 0001:0000d4ff       mexCallMATLABWithObject    000000018000e4ff f   libmex:libmex.dll
+ 0001:0000d505       mexLock                    000000018000e505 f   libmex:libmex.dll
+ 0001:0000d50b       mexUnlock                  000000018000e50b f   libmex:libmex.dll
+ 0001:0000d511       mexIsLocked                000000018000e511 f   libmex:libmex.dll
+ 0001:0000d517       utMalloc                   000000018000e517 f   libut:libut.dll
+ 0001:0000d51d       utFree                     000000018000e51d f   libut:libut.dll
+ 0001:0000d524       __raise_securityfailure    000000018000e524 f   MSVCRT:gs_report.obj
+ 0001:0000d558       __report_gsfailure         000000018000e558 f   MSVCRT:gs_report.obj
+ 0001:0000d62c       __report_rangecheckfailure 000000018000e62c f   MSVCRT:gs_report.obj
+ 0001:0000d640       __report_securityfailure   000000018000e640 f   MSVCRT:gs_report.obj
+ 0001:0000d6dc       __report_securityfailureEx 000000018000e6dc f   MSVCRT:gs_report.obj
+ 0001:0000d8d0       __GSHandlerCheck           000000018000e8d0 f   MSVCRT:gshandler.obj
+ 0001:0000d8f0       __GSHandlerCheckCommon     000000018000e8f0 f   MSVCRT:gshandler.obj
+ 0001:0000d960       __security_check_cookie    000000018000e960 f   MSVCRT:amdsecgs.obj
+ 0001:0000dcd0       _CRT_INIT                  000000018000ecd0 f   MSVCRT:dll_dllmain.obj
+ 0001:0000dcd8       _DllMainCRTStartup         000000018000ecd8 f   MSVCRT:dll_dllmain.obj
+ 0001:0000dd84       __security_init_cookie     000000018000ed84 f   MSVCRT:gs_support.obj
+ 0001:0000de30       DllMain                    000000018000ee30 f   MSVCRT:dll_dllmain_stub.obj
+ 0001:0000de54       ?__scrt_initialize_type_info@@YAXXZ 000000018000ee54 f   MSVCRT:tncleanup.obj
+ 0001:0000de64       ?__scrt_uninitialize_type_info@@YAXXZ 000000018000ee64 f   MSVCRT:tncleanup.obj
+ 0001:0000de70       __local_stdio_scanf_options 000000018000ee70 f i MSVCRT:default_local_stdio_options.obj
+ 0001:0000de78       __scrt_initialize_default_local_stdio_options 000000018000ee78 f   MSVCRT:default_local_stdio_options.obj
+ 0001:0000de94       ??$__crt_fast_decode_pointer@PEAP6AXXZ@@YAPEAP6AXXZQEAP6AXXZ@Z 000000018000ee94 f i MSVCRT:utility.obj
+ 0001:0000deac       ??$__crt_fast_encode_pointer@PEAP6AXXZ@@YAPEAP6AXXZQEAP6AXXZ@Z 000000018000eeac f i MSVCRT:utility.obj
+ 0001:0000decc       ?__crt_rotate_pointer_value@@YA_K_KH@Z 000000018000eecc f i MSVCRT:utility.obj
+ 0001:0000ded8       ?configure_argv@__scrt_narrow_argv_policy@@SAHXZ 000000018000eed8 f i MSVCRT:utility.obj
+ 0001:0000df38       ?initialize_environment@__scrt_narrow_environment_policy@@SAHXZ 000000018000ef38 f i MSVCRT:utility.obj
+ 0001:0000df70       NtCurrentTeb               000000018000ef70 f i MSVCRT:utility.obj
+ 0001:0000df7c       __scrt_acquire_startup_lock 000000018000ef7c f   MSVCRT:utility.obj
+ 0001:0000dfb8       __scrt_dllmain_after_initialize_c 000000018000efb8 f   MSVCRT:utility.obj
+ 0001:0000dfec       __scrt_dllmain_before_initialize_c 000000018000efec f   MSVCRT:utility.obj
+ 0001:0000e004       __scrt_dllmain_crt_thread_attach 000000018000f004 f   MSVCRT:utility.obj
+ 0001:0000e02c       __scrt_dllmain_crt_thread_detach 000000018000f02c f   MSVCRT:utility.obj
+ 0001:0000e044       __scrt_dllmain_exception_filter 000000018000f044 f   MSVCRT:utility.obj
+ 0001:0000e0a4       __scrt_dllmain_uninitialize_c 000000018000f0a4 f   MSVCRT:utility.obj
+ 0001:0000e0d4       __scrt_dllmain_uninitialize_critical 000000018000f0d4 f   MSVCRT:utility.obj
+ 0001:0000e0e8       __scrt_initialize_crt      000000018000f0e8 f   MSVCRT:utility.obj
+ 0001:0000e134       __scrt_initialize_onexit_tables 000000018000f134 f   MSVCRT:utility.obj
+ 0001:0000e20c       __scrt_is_nonwritable_in_current_image 000000018000f20c f   MSVCRT:utility.obj
+ 0001:0000e2a8       __scrt_release_startup_lock 000000018000f2a8 f   MSVCRT:utility.obj
+ 0001:0000e2cc       __scrt_uninitialize_crt    000000018000f2cc f   MSVCRT:utility.obj
+ 0001:0000e2f8       _onexit                    000000018000f2f8 f   MSVCRT:utility.obj
+ 0001:0000e348       at_quick_exit              000000018000f348 f   MSVCRT:utility.obj
+ 0001:0000e380       atexit                     000000018000f380 f   MSVCRT:utility.obj
+ 0001:0000e398       __scrt_get_dyn_tls_init_callback 000000018000f398 f   MSVCRT:dyn_tls_init.obj
+ 0001:0000e3a0       __crt_debugger_hook        000000018000f3a0 f   MSVCRT:utility_desktop.obj
+ 0001:0000e3a8       __scrt_fastfail            000000018000f3a8 f   MSVCRT:utility_desktop.obj
+ 0001:0000e4f4       __scrt_get_show_window_mode 000000018000f4f4 f   MSVCRT:utility_desktop.obj
+ 0001:0000e530       __scrt_initialize_mta      000000018000f530 f   MSVCRT:utility_desktop.obj
+ 0001:0000e538       __scrt_initialize_winrt    000000018000f538 f   MSVCRT:utility_desktop.obj
+ 0001:0000e53c       __scrt_is_managed_app      000000018000f53c f   MSVCRT:utility_desktop.obj
+ 0001:0000e590       __scrt_set_unhandled_exception_filter 000000018000f590 f   MSVCRT:utility_desktop.obj
+ 0001:0000e5a0       __scrt_exe_initialize_mta  000000018000f5a0 f   MSVCRT:utility_desktop.obj
+ 0001:0000e5a0       __scrt_stub_for_initialize_mta 000000018000f5a0 f   MSVCRT:utility_desktop.obj
+ 0001:0000e5a4       __scrt_unhandled_exception_filter 000000018000f5a4 f   MSVCRT:utility_desktop.obj
+ 0001:0000e5dc       _RTC_Initialize            000000018000f5dc f   MSVCRT:initsect.obj
+ 0001:0000e618       _RTC_Terminate             000000018000f618 f   MSVCRT:initsect.obj
+ 0001:0000e654       _guard_check_icall_nop     000000018000f654 f i MSVCRT:guard_support.obj
+ 0001:0000e658       ReadNoFence64              000000018000f658 f i MSVCRT:guard_support.obj
+ 0001:0000e65c       ReadPointerNoFence         000000018000f65c f i MSVCRT:guard_support.obj
+ 0001:0000e660       _guard_icall_checks_enforced 000000018000f660 f i MSVCRT:guard_support.obj
+ 0001:0000e678       _guard_rf_checks_enforced  000000018000f678 f i MSVCRT:guard_support.obj
+ 0001:0000e67c       __isa_available_init       000000018000f67c f   MSVCRT:cpu_disp.obj
+ 0001:0000e838       _get_startup_argv_mode     000000018000f838 f   MSVCRT:argv_mode.obj
+ 0001:0000e840       __scrt_is_ucrt_dll_in_use  000000018000f840 f   MSVCRT:ucrt_detection.obj
+ 0001:0000e850       RtlCaptureContext          000000018000f850 f   kernel32:KERNEL32.dll
+ 0001:0000e856       RtlLookupFunctionEntry     000000018000f856 f   kernel32:KERNEL32.dll
+ 0001:0000e85c       RtlVirtualUnwind           000000018000f85c f   kernel32:KERNEL32.dll
+ 0001:0000e862       UnhandledExceptionFilter   000000018000f862 f   kernel32:KERNEL32.dll
+ 0001:0000e868       SetUnhandledExceptionFilter 000000018000f868 f   kernel32:KERNEL32.dll
+ 0001:0000e86e       GetCurrentProcess          000000018000f86e f   kernel32:KERNEL32.dll
+ 0001:0000e874       TerminateProcess           000000018000f874 f   kernel32:KERNEL32.dll
+ 0001:0000e87a       IsProcessorFeaturePresent  000000018000f87a f   kernel32:KERNEL32.dll
+ 0001:0000e880       QueryPerformanceCounter    000000018000f880 f   kernel32:KERNEL32.dll
+ 0001:0000e886       GetCurrentProcessId        000000018000f886 f   kernel32:KERNEL32.dll
+ 0001:0000e88c       GetCurrentThreadId         000000018000f88c f   kernel32:KERNEL32.dll
+ 0001:0000e892       GetSystemTimeAsFileTime    000000018000f892 f   kernel32:KERNEL32.dll
+ 0001:0000e898       DisableThreadLibraryCalls  000000018000f898 f   kernel32:KERNEL32.dll
+ 0001:0000e89e       InitializeSListHead        000000018000f89e f   kernel32:KERNEL32.dll
+ 0001:0000e8a4       IsDebuggerPresent          000000018000f8a4 f   kernel32:KERNEL32.dll
+ 0001:0000e8aa       GetStartupInfoW            000000018000f8aa f   kernel32:KERNEL32.dll
+ 0001:0000e8b0       GetModuleHandleW           000000018000f8b0 f   kernel32:KERNEL32.dll
+ 0001:0000e8b6       memset                     000000018000f8b6 f   vcruntime:VCRUNTIME140.dll
+ 0001:0000e8bc       memcpy                     000000018000f8bc f   vcruntime:VCRUNTIME140.dll
+ 0001:0000e8c2       __C_specific_handler       000000018000f8c2 f   vcruntime:VCRUNTIME140.dll
+ 0001:0000e8c8       __std_type_info_destroy_list 000000018000f8c8 f   vcruntime:VCRUNTIME140.dll
+ 0001:0000e8ce       strcmp                     000000018000f8ce f   ucrt:api-ms-win-crt-string-l1-1-0.dll
+ 0001:0000e8d4       __stdio_common_vsprintf    000000018000f8d4 f   ucrt:api-ms-win-crt-stdio-l1-1-0.dll
+ 0001:0000e8da       free                       000000018000f8da f   ucrt:api-ms-win-crt-heap-l1-1-0.dll
+ 0001:0000e8e0       malloc                     000000018000f8e0 f   ucrt:api-ms-win-crt-heap-l1-1-0.dll
+ 0001:0000e8e6       strlen                     000000018000f8e6 f   ucrt:api-ms-win-crt-string-l1-1-0.dll
+ 0001:0000e8ec       _initterm                  000000018000f8ec f   ucrt:api-ms-win-crt-runtime-l1-1-0.dll
+ 0001:0000e8f2       _initterm_e                000000018000f8f2 f   ucrt:api-ms-win-crt-runtime-l1-1-0.dll
+ 0001:0000e8f8       _seh_filter_dll            000000018000f8f8 f   ucrt:api-ms-win-crt-runtime-l1-1-0.dll
+ 0001:0000e8fe       _configure_narrow_argv     000000018000f8fe f   ucrt:api-ms-win-crt-runtime-l1-1-0.dll
+ 0001:0000e904       _initialize_narrow_environment 000000018000f904 f   ucrt:api-ms-win-crt-runtime-l1-1-0.dll
+ 0001:0000e90a       _initialize_onexit_table   000000018000f90a f   ucrt:api-ms-win-crt-runtime-l1-1-0.dll
+ 0001:0000e910       _register_onexit_function  000000018000f910 f   ucrt:api-ms-win-crt-runtime-l1-1-0.dll
+ 0001:0000e916       _execute_onexit_table      000000018000f916 f   ucrt:api-ms-win-crt-runtime-l1-1-0.dll
+ 0001:0000e91c       _crt_atexit                000000018000f91c f   ucrt:api-ms-win-crt-runtime-l1-1-0.dll
+ 0001:0000e922       _crt_at_quick_exit         000000018000f922 f   ucrt:api-ms-win-crt-runtime-l1-1-0.dll
+ 0001:0000e928       _cexit                     000000018000f928 f   ucrt:api-ms-win-crt-runtime-l1-1-0.dll
+ 0001:0000e92e       terminate                  000000018000f92e f   ucrt:api-ms-win-crt-runtime-l1-1-0.dll
+ 0001:0000e934       __scrt_stub_for_acrt_initialize 000000018000f934 f   MSVCRT:ucrt_stubs.obj
+ 0001:0000e934       __vcrt_initialize          000000018000f934 f   MSVCRT:ucrt_stubs.obj
+ 0001:0000e934       __acrt_initialize          000000018000f934 f   MSVCRT:ucrt_stubs.obj
+ 0001:0000e938       __acrt_thread_attach       000000018000f938 f   MSVCRT:ucrt_stubs.obj
+ 0001:0000e938       __scrt_stub_for_acrt_thread_attach 000000018000f938 f   MSVCRT:ucrt_stubs.obj
+ 0001:0000e938       __vcrt_thread_attach       000000018000f938 f   MSVCRT:ucrt_stubs.obj
+ 0001:0000e93c       __vcrt_thread_detach       000000018000f93c f   MSVCRT:ucrt_stubs.obj
+ 0001:0000e93c       __scrt_stub_for_acrt_thread_detach 000000018000f93c f   MSVCRT:ucrt_stubs.obj
+ 0001:0000e93c       __acrt_thread_detach       000000018000f93c f   MSVCRT:ucrt_stubs.obj
+ 0001:0000e940       __scrt_stub_for_acrt_uninitialize 000000018000f940 f   MSVCRT:ucrt_stubs.obj
+ 0001:0000e940       __acrt_uninitialize        000000018000f940 f   MSVCRT:ucrt_stubs.obj
+ 0001:0000e940       __vcrt_uninitialize        000000018000f940 f   MSVCRT:ucrt_stubs.obj
+ 0001:0000e944       __acrt_uninitialize_critical 000000018000f944 f   MSVCRT:ucrt_stubs.obj
+ 0001:0000e944       __scrt_stub_for_acrt_uninitialize_critical 000000018000f944 f   MSVCRT:ucrt_stubs.obj
+ 0001:0000e944       __vcrt_uninitialize_critical 000000018000f944 f   MSVCRT:ucrt_stubs.obj
+ 0001:0000e948       __scrt_stub_for_is_c_termination_complete 000000018000f948 f   MSVCRT:ucrt_stubs.obj
+ 0001:0000e948       _is_c_termination_complete 000000018000f948 f   MSVCRT:ucrt_stubs.obj
+ 0001:0000e960       _guard_dispatch_icall_nop  000000018000f960 f   MSVCRT:guard_dispatch.obj
+ 0002:00000000       __imp_UnhandledExceptionFilter 0000000180010000     kernel32:KERNEL32.dll
+ 0002:00000008       __imp_TerminateProcess     0000000180010008     kernel32:KERNEL32.dll
+ 0002:00000010       __imp_RtlCaptureContext    0000000180010010     kernel32:KERNEL32.dll
+ 0002:00000018       __imp_RtlLookupFunctionEntry 0000000180010018     kernel32:KERNEL32.dll
+ 0002:00000020       __imp_IsProcessorFeaturePresent 0000000180010020     kernel32:KERNEL32.dll
+ 0002:00000028       __imp_QueryPerformanceCounter 0000000180010028     kernel32:KERNEL32.dll
+ 0002:00000030       __imp_GetCurrentProcessId  0000000180010030     kernel32:KERNEL32.dll
+ 0002:00000038       __imp_GetCurrentThreadId   0000000180010038     kernel32:KERNEL32.dll
+ 0002:00000040       __imp_GetSystemTimeAsFileTime 0000000180010040     kernel32:KERNEL32.dll
+ 0002:00000048       __imp_DisableThreadLibraryCalls 0000000180010048     kernel32:KERNEL32.dll
+ 0002:00000050       __imp_InitializeSListHead  0000000180010050     kernel32:KERNEL32.dll
+ 0002:00000058       __imp_IsDebuggerPresent    0000000180010058     kernel32:KERNEL32.dll
+ 0002:00000060       __imp_GetStartupInfoW      0000000180010060     kernel32:KERNEL32.dll
+ 0002:00000068       __imp_GetModuleHandleW     0000000180010068     kernel32:KERNEL32.dll
+ 0002:00000070       __imp_SetUnhandledExceptionFilter 0000000180010070     kernel32:KERNEL32.dll
+ 0002:00000078       __imp_GetCurrentProcess    0000000180010078     kernel32:KERNEL32.dll
+ 0002:00000080       __imp_RtlVirtualUnwind     0000000180010080     kernel32:KERNEL32.dll
+ 0002:00000088       \177KERNEL32_NULL_THUNK_DATA 0000000180010088     kernel32:KERNEL32.dll
+ 0002:00000090       __imp___C_specific_handler 0000000180010090     vcruntime:VCRUNTIME140.dll
+ 0002:00000098       __imp_memset               0000000180010098     vcruntime:VCRUNTIME140.dll
+ 0002:000000a0       __imp___std_type_info_destroy_list 00000001800100a0     vcruntime:VCRUNTIME140.dll
+ 0002:000000a8       __imp_memcpy               00000001800100a8     vcruntime:VCRUNTIME140.dll
+ 0002:000000b0       \177VCRUNTIME140_NULL_THUNK_DATA 00000001800100b0     vcruntime:VCRUNTIME140.dll
+ 0002:000000b8       __imp_malloc               00000001800100b8     ucrt:api-ms-win-crt-heap-l1-1-0.dll
+ 0002:000000c0       __imp_free                 00000001800100c0     ucrt:api-ms-win-crt-heap-l1-1-0.dll
+ 0002:000000c8       \177api-ms-win-crt-heap-l1-1-0_NULL_THUNK_DATA 00000001800100c8     ucrt:api-ms-win-crt-heap-l1-1-0.dll
+ 0002:000000d0       __imp__initterm_e          00000001800100d0     ucrt:api-ms-win-crt-runtime-l1-1-0.dll
+ 0002:000000d8       __imp__seh_filter_dll      00000001800100d8     ucrt:api-ms-win-crt-runtime-l1-1-0.dll
+ 0002:000000e0       __imp__initterm            00000001800100e0     ucrt:api-ms-win-crt-runtime-l1-1-0.dll
+ 0002:000000e8       __imp__initialize_narrow_environment 00000001800100e8     ucrt:api-ms-win-crt-runtime-l1-1-0.dll
+ 0002:000000f0       __imp__initialize_onexit_table 00000001800100f0     ucrt:api-ms-win-crt-runtime-l1-1-0.dll
+ 0002:000000f8       __imp__register_onexit_function 00000001800100f8     ucrt:api-ms-win-crt-runtime-l1-1-0.dll
+ 0002:00000100       __imp__execute_onexit_table 0000000180010100     ucrt:api-ms-win-crt-runtime-l1-1-0.dll
+ 0002:00000108       __imp__crt_atexit          0000000180010108     ucrt:api-ms-win-crt-runtime-l1-1-0.dll
+ 0002:00000110       __imp__crt_at_quick_exit   0000000180010110     ucrt:api-ms-win-crt-runtime-l1-1-0.dll
+ 0002:00000118       __imp__cexit               0000000180010118     ucrt:api-ms-win-crt-runtime-l1-1-0.dll
+ 0002:00000120       __imp_terminate            0000000180010120     ucrt:api-ms-win-crt-runtime-l1-1-0.dll
+ 0002:00000128       __imp__configure_narrow_argv 0000000180010128     ucrt:api-ms-win-crt-runtime-l1-1-0.dll
+ 0002:00000130       \177api-ms-win-crt-runtime-l1-1-0_NULL_THUNK_DATA 0000000180010130     ucrt:api-ms-win-crt-runtime-l1-1-0.dll
+ 0002:00000138       __imp___stdio_common_vsprintf 0000000180010138     ucrt:api-ms-win-crt-stdio-l1-1-0.dll
+ 0002:00000140       \177api-ms-win-crt-stdio-l1-1-0_NULL_THUNK_DATA 0000000180010140     ucrt:api-ms-win-crt-stdio-l1-1-0.dll
+ 0002:00000148       __imp_strlen               0000000180010148     ucrt:api-ms-win-crt-string-l1-1-0.dll
+ 0002:00000150       __imp_strcmp               0000000180010150     ucrt:api-ms-win-crt-string-l1-1-0.dll
+ 0002:00000158       \177api-ms-win-crt-string-l1-1-0_NULL_THUNK_DATA 0000000180010158     ucrt:api-ms-win-crt-string-l1-1-0.dll
+ 0002:00000160       __imp_mexErrMsgTxt         0000000180010160     libmex:libmex.dll
+ 0002:00000168       __imp_mexIsLocked          0000000180010168     libmex:libmex.dll
+ 0002:00000170       __imp_mexUnlock            0000000180010170     libmex:libmex.dll
+ 0002:00000178       __imp_mexLock              0000000180010178     libmex:libmex.dll
+ 0002:00000180       __imp_mexCallMATLABWithObject 0000000180010180     libmex:libmex.dll
+ 0002:00000188       __imp_mexWarnMsgTxt        0000000180010188     libmex:libmex.dll
+ 0002:00000190       __imp_mexMakeArrayPersistent 0000000180010190     libmex:libmex.dll
+ 0002:00000198       \177libmex_NULL_THUNK_DATA 0000000180010198     libmex:libmex.dll
+ 0002:000001a0       __imp_mxGetN               00000001800101a0     libmx:libmx.dll
+ 0002:000001a8       __imp_mxIsComplex          00000001800101a8     libmx:libmx.dll
+ 0002:000001b0       __imp_mxIsNumeric          00000001800101b0     libmx:libmx.dll
+ 0002:000001b8       __imp_mxGetClassID         00000001800101b8     libmx:libmx.dll
+ 0002:000001c0       __imp_mxGetM               00000001800101c0     libmx:libmx.dll
+ 0002:000001c8       __imp_mxCalloc             00000001800101c8     libmx:libmx.dll
+ 0002:000001d0       __imp_mxCreateStructArray_730 00000001800101d0     libmx:libmx.dll
+ 0002:000001d8       __imp_mxCreateStructMatrix_730 00000001800101d8     libmx:libmx.dll
+ 0002:000001e0       __imp_mxCreateCellArray_730 00000001800101e0     libmx:libmx.dll
+ 0002:000001e8       __imp_mxCreateCellMatrix_730 00000001800101e8     libmx:libmx.dll
+ 0002:000001f0       __imp_mxCreateString       00000001800101f0     libmx:libmx.dll
+ 0002:000001f8       __imp_mxCreateDoubleScalar 00000001800101f8     libmx:libmx.dll
+ 0002:00000200       __imp_mxSetField_730       0000000180010200     libmx:libmx.dll
+ 0002:00000208       __imp_mxDuplicateArray     0000000180010208     libmx:libmx.dll
+ 0002:00000210       __imp_mxGetString_730      0000000180010210     libmx:libmx.dll
+ 0002:00000218       __imp_mxCreateDoubleMatrix_730 0000000180010218     libmx:libmx.dll
+ 0002:00000220       __imp_mxDestroyArray       0000000180010220     libmx:libmx.dll
+ 0002:00000228       __imp_mxGetScalar          0000000180010228     libmx:libmx.dll
+ 0002:00000230       __imp_mxGetPr              0000000180010230     libmx:libmx.dll
+ 0002:00000238       __imp_mxIsChar             0000000180010238     libmx:libmx.dll
+ 0002:00000240       \177libmx_NULL_THUNK_DATA  0000000180010240     libmx:libmx.dll
+ 0002:00000248       __imp_utMalloc             0000000180010248     libut:libut.dll
+ 0002:00000250       __imp_utFree               0000000180010250     libut:libut.dll
+ 0002:00000258       \177libut_NULL_THUNK_DATA  0000000180010258     libut:libut.dll
+ 0002:00000260       __imp_sf_clear_error_manager_info 0000000180010260     sf_runtime:sf_runtime.dll
+ 0002:00000268       __imp_sf_mex_error_direct_call 0000000180010268     sf_runtime:sf_runtime.dll
+ 0002:00000270       __imp_getRuntimeInstanceInfoAsVoid 0000000180010270     sf_runtime:sf_runtime.dll
+ 0002:00000278       __imp_call_sf_machine_global_method_dispatcher 0000000180010278     sf_runtime:sf_runtime.dll
+ 0002:00000280       __imp_callMdlMethodAndReportError 0000000180010280     sf_runtime:sf_runtime.dll
+ 0002:00000288       __imp_sf_get_hasSeparateUpdateOutputs 0000000180010288     sf_runtime:sf_runtime.dll
+ 0002:00000290       __imp_sf_get_ChartInfoStruct_CodeGen 0000000180010290     sf_runtime:sf_runtime.dll
+ 0002:00000298       __imp_sf_debug_cv_init_state 0000000180010298     sf_runtime:sf_runtime.dll
+ 0002:000002a0       __imp_sf_debug_cv_init_chart 00000001800102a0     sf_runtime:sf_runtime.dll
+ 0002:000002a8       __imp_sf_debug_cv_init_trans 00000001800102a8     sf_runtime:sf_runtime.dll
+ 0002:000002b0       __imp_sf_debug_data_range_wrapper 00000001800102b0     sf_runtime:sf_runtime.dll
+ 0002:000002b8       __imp_sf_debug_create_debug_instance_struct 00000001800102b8     sf_runtime:sf_runtime.dll
+ 0002:000002c0       __imp_sf_debug_set_chart_decomposition 00000001800102c0     sf_runtime:sf_runtime.dll
+ 0002:000002c8       __imp_sf_debug_set_chart_state_info 00000001800102c8     sf_runtime:sf_runtime.dll
+ 0002:000002d0       __imp_sf_debug_set_chart_event_thresholds 00000001800102d0     sf_runtime:sf_runtime.dll
+ 0002:000002d8       __imp_sf_debug_terminate   00000001800102d8     sf_runtime:sf_runtime.dll
+ 0002:000002e0       __imp_sf_debug_set_chart_disable_implicit_casting 00000001800102e0     sf_runtime:sf_runtime.dll
+ 0002:000002e8       __imp_sf_debug_set_instance_data_value_ptr 00000001800102e8     sf_runtime:sf_runtime.dll
+ 0002:000002f0       __imp_sf_debug_symbol_scope_add_eml_importable 00000001800102f0     sf_runtime:sf_runtime.dll
+ 0002:000002f8       __imp_sf_debug_symbol_scope_add_eml 00000001800102f8     sf_runtime:sf_runtime.dll
+ 0002:00000300       __imp_sf_debug_symbol_scope_pop 0000000180010300     sf_runtime:sf_runtime.dll
+ 0002:00000308       __imp_sf_debug_symbol_scope_push_eml 0000000180010308     sf_runtime:sf_runtime.dll
+ 0002:00000310       __imp_sf_debug_symbol_scope_push 0000000180010310     sf_runtime:sf_runtime.dll
+ 0002:00000318       __imp_sf_debug_set_chart_data_compiled_props 0000000180010318     sf_runtime:sf_runtime.dll
+ 0002:00000320       __imp_sf_debug_api         0000000180010320     sf_runtime:sf_runtime.dll
+ 0002:00000328       __imp_sf_debug_set_chart_substate_count 0000000180010328     sf_runtime:sf_runtime.dll
+ 0002:00000330       __imp_eml_debug_line_call  0000000180010330     sf_runtime:sf_runtime.dll
+ 0002:00000338       __imp_sf_debug_set_chart_data_props 0000000180010338     sf_runtime:sf_runtime.dll
+ 0002:00000340       __imp_sf_debug_check_for_state_inconsistency 0000000180010340     sf_runtime:sf_runtime.dll
+ 0002:00000348       __imp_sf_debug_reset_current_state_configuration 0000000180010348     sf_runtime:sf_runtime.dll
+ 0002:00000350       __imp_cv_eml_init_fcn      0000000180010350     sf_runtime:sf_runtime.dll
+ 0002:00000358       __imp_cv_eml_init_script   0000000180010358     sf_runtime:sf_runtime.dll
+ 0002:00000360       __imp_cv_eml_eval          0000000180010360     sf_runtime:sf_runtime.dll
+ 0002:00000368       __imp_sf_load_rtw_optimization_info 0000000180010368     sf_runtime:sf_runtime.dll
+ 0002:00000370       __imp_sf_debug_call        0000000180010370     sf_runtime:sf_runtime.dll
+ 0002:00000378       __imp_sf_debug_initialize_chart 0000000180010378     sf_runtime:sf_runtime.dll
+ 0002:00000380       __imp_ssGetOutputPortSignal_wrapper 0000000180010380     sf_runtime:sf_runtime.dll
+ 0002:00000388       __imp_ssGetInputPortSignal_wrapper 0000000180010388     sf_runtime:sf_runtime.dll
+ 0002:00000390       __imp_sf_mex_decode_encoded_mx_struct_array 0000000180010390     sf_runtime:sf_runtime.dll
+ 0002:00000398       __imp_sf_mex_import        0000000180010398     sf_runtime:sf_runtime.dll
+ 0002:000003a0       __imp_sf_mex_destroy       00000001800103a0     sf_runtime:sf_runtime.dll
+ 0002:000003a8       __imp_sf_mex_dup           00000001800103a8     sf_runtime:sf_runtime.dll
+ 0002:000003b0       __imp_sf_mex_assign        00000001800103b0     sf_runtime:sf_runtime.dll
+ 0002:000003b8       __imp_sf_mex_getcell       00000001800103b8     sf_runtime:sf_runtime.dll
+ 0002:000003c0       __imp_sf_mex_setcell       00000001800103c0     sf_runtime:sf_runtime.dll
+ 0002:000003c8       __imp_sf_mex_createcellmatrix 00000001800103c8     sf_runtime:sf_runtime.dll
+ 0002:000003d0       __imp_sf_mex_create        00000001800103d0     sf_runtime:sf_runtime.dll
+ 0002:000003d8       __imp_sf_mex_error_message 00000001800103d8     sf_runtime:sf_runtime.dll
+ 0002:000003e0       __imp_ssSetBlockIsPurelyCombinatorial_wrapper 00000001800103e0     sf_runtime:sf_runtime.dll
+ 0002:000003e8       __imp_sf_register_codegen_names_for_scoped_functions_defined_by_chart 00000001800103e8     sf_runtime:sf_runtime.dll
+ 0002:000003f0       __imp_sf_set_chart_accesses_machine_info 00000001800103f0     sf_runtime:sf_runtime.dll
+ 0002:000003f8       __imp_sf_is_first_init_cond 00000001800103f8     sf_runtime:sf_runtime.dll
+ 0002:00000400       __imp_sf_get_time          0000000180010400     sf_runtime:sf_runtime.dll
+ 0002:00000408       __imp_sf_set_rtw_dwork_info 0000000180010408     sf_runtime:sf_runtime.dll
+ 0002:00000410       __imp_sf_clear_rtw_identifier 0000000180010410     sf_runtime:sf_runtime.dll
+ 0002:00000418       __imp_sim_mode_is_modelref_sim 0000000180010418     sf_runtime:sf_runtime.dll
+ 0002:00000420       __imp_sim_mode_is_external 0000000180010420     sf_runtime:sf_runtime.dll
+ 0002:00000428       __imp_sim_mode_is_rtw_gen  0000000180010428     sf_runtime:sf_runtime.dll
+ 0002:00000430       __imp_sf_mark_chart_expressionable_inputs 0000000180010430     sf_runtime:sf_runtime.dll
+ 0002:00000438       __imp_sf_mark_chart_reusable_outputs 0000000180010438     sf_runtime:sf_runtime.dll
+ 0002:00000440       __imp_sf_is_chart_inlinable 0000000180010440     sf_runtime:sf_runtime.dll
+ 0002:00000448       __imp_sf_update_buildInfo  0000000180010448     sf_runtime:sf_runtime.dll
+ 0002:00000450       __imp_sf_rtw_info_uint_prop 0000000180010450     sf_runtime:sf_runtime.dll
+ 0002:00000458       __imp_sf_get_chart_instance_ptr 0000000180010458     sf_runtime:sf_runtime.dll
+ 0002:00000460       __imp_sfrtGetEmlrtCtx      0000000180010460     sf_runtime:sf_runtime.dll
+ 0002:00000468       __imp_sf_free_ChartRunTimeInfo 0000000180010468     sf_runtime:sf_runtime.dll
+ 0002:00000470       __imp_sf_init_ChartRunTimeInfo 0000000180010470     sf_runtime:sf_runtime.dll
+ 0002:00000478       __imp_sf_debug_set_machine_data_thresholds 0000000180010478     sf_runtime:sf_runtime.dll
+ 0002:00000480       __imp_sf_debug_set_machine_event_thresholds 0000000180010480     sf_runtime:sf_runtime.dll
+ 0002:00000488       __imp_sf_debug_initialize_machine 0000000180010488     sf_runtime:sf_runtime.dll
+ 0002:00000490       \177sf_runtime_NULL_THUNK_DATA 0000000180010490     sf_runtime:sf_runtime.dll
+ 0002:00000498       __guard_check_icall_fptr   0000000180010498     MSVCRT:guard_support.obj
+ 0002:000004a0       __guard_dispatch_icall_fptr 00000001800104a0     MSVCRT:guard_support.obj
+ 0002:000004a8       __xc_a                     00000001800104a8     MSVCRT:initializers.obj
+ 0002:000004b0       __xc_z                     00000001800104b0     MSVCRT:initializers.obj
+ 0002:000004b8       __xi_a                     00000001800104b8     MSVCRT:initializers.obj
+ 0002:000004c0       __xi_z                     00000001800104c0     MSVCRT:initializers.obj
+ 0002:000004c8       __xp_a                     00000001800104c8     MSVCRT:initializers.obj
+ 0002:000004d0       __xp_z                     00000001800104d0     MSVCRT:initializers.obj
+ 0002:000004d8       __xt_a                     00000001800104d8     MSVCRT:initializers.obj
+ 0002:000004e0       __xt_z                     00000001800104e0     MSVCRT:initializers.obj
+ 0002:000004f0       __real@41a9462250000000    00000001800104f0     QPSK_send_new_sfun.obj
+ 0002:000004f8       __real@41c125ce6f000000    00000001800104f8     QPSK_send_new_sfun.obj
+ 0002:00000500       __real@41c7f0bdb2800000    0000000180010500     QPSK_send_new_sfun.obj
+ 0002:00000508       __real@41ca3c4c1e800000    0000000180010508     QPSK_send_new_sfun.obj
+ 0002:00000510       __real@41d00e6a33c00000    0000000180010510     QPSK_send_new_sfun.obj
+ 0002:00000518       __real@41d43e3f2a800000    0000000180010518     QPSK_send_new_sfun.obj
+ 0002:00000520       __real@41db41e5f1800000    0000000180010520     QPSK_send_new_sfun.obj
+ 0002:00000528       __real@41df5593c8400000    0000000180010528     QPSK_send_new_sfun.obj
+ 0002:00000530       __real@41e0842fd3600000    0000000180010530     QPSK_send_new_sfun.obj
+ 0002:00000538       __real@41e54fecec000000    0000000180010538     QPSK_send_new_sfun.obj
+ 0002:00000540       __real@41e5ec6228200000    0000000180010540     QPSK_send_new_sfun.obj
+ 0002:00000548       __real@41efe22485a00000    0000000180010548     QPSK_send_new_sfun.obj
+ 0002:00000550       __real@3ff0000000000000    0000000180010550     c2_QPSK_send_new.obj
+ 0002:00000558       __real@4024000000000000    0000000180010558     c2_QPSK_send_new.obj
+ 0002:00000560       __real@4033000000000000    0000000180010560     c2_QPSK_send_new.obj
+ 0002:00000568       __real@4034000000000000    0000000180010568     c2_QPSK_send_new.obj
+ 0002:00000570       __real@4062c00000000000    0000000180010570     c2_QPSK_send_new.obj
+ 0002:00000578       __real@41d1721607000000    0000000180010578     c2_QPSK_send_new.obj
+ 0002:00000580       __real@41e36be300200000    0000000180010580     c2_QPSK_send_new.obj
+ 0002:00000588       __real@41e52cf4a1e00000    0000000180010588     c2_QPSK_send_new.obj
+ 0002:00000590       __real@41ec37cb62800000    0000000180010590     c2_QPSK_send_new.obj
+ 0002:00000598       DYNAMIC_DIMENSION_DEF      0000000180010598     QPSK_send_new_sfun_registry.obj
+ 0002:000005b0       __real@0000000000000000    00000001800105b0     QPSK_send_new_sfun_registry.obj
+ 0002:000005b8       __real@4010000000000000    00000001800105b8     QPSK_send_new_sfun_registry.obj
+ 0002:000005c0       __real@41602cbca0000000    00000001800105c0     QPSK_send_new_sfun_registry.obj
+ 0002:000005c8       __real@bff0000000000000    00000001800105c8     QPSK_send_new_sfun_registry.obj
+ 0002:000005e0       _pRawDllMain               00000001800105e0     MSVCRT:dll_dllmain.obj
+ 0002:000005e0       _pDefaultRawDllMain        00000001800105e0     MSVCRT:dll_dllmain.obj
+ 0002:00000610       _load_config_used          0000000180010610     MSVCRT:loadcfg.obj
+ 0002:00000928       __rtc_iaa                  0000000180010928     MSVCRT:initsect.obj
+ 0002:00000930       __rtc_izz                  0000000180010930     MSVCRT:initsect.obj
+ 0002:00000938       __rtc_taa                  0000000180010938     MSVCRT:initsect.obj
+ 0002:00000940       __rtc_tzz                  0000000180010940     MSVCRT:initsect.obj
+ 0002:0000128c       __IMPORT_DESCRIPTOR_sf_runtime 000000018001128c     sf_runtime:sf_runtime.dll
+ 0002:000012a0       __IMPORT_DESCRIPTOR_libmx  00000001800112a0     libmx:libmx.dll
+ 0002:000012b4       __IMPORT_DESCRIPTOR_libmex 00000001800112b4     libmex:libmex.dll
+ 0002:000012c8       __IMPORT_DESCRIPTOR_libut  00000001800112c8     libut:libut.dll
+ 0002:000012dc       __IMPORT_DESCRIPTOR_KERNEL32 00000001800112dc     kernel32:KERNEL32.dll
+ 0002:000012f0       __IMPORT_DESCRIPTOR_VCRUNTIME140 00000001800112f0     vcruntime:VCRUNTIME140.dll
+ 0002:00001304       __IMPORT_DESCRIPTOR_api-ms-win-crt-string-l1-1-0 0000000180011304     ucrt:api-ms-win-crt-string-l1-1-0.dll
+ 0002:00001318       __IMPORT_DESCRIPTOR_api-ms-win-crt-stdio-l1-1-0 0000000180011318     ucrt:api-ms-win-crt-stdio-l1-1-0.dll
+ 0002:0000132c       __IMPORT_DESCRIPTOR_api-ms-win-crt-heap-l1-1-0 000000018001132c     ucrt:api-ms-win-crt-heap-l1-1-0.dll
+ 0002:00001340       __IMPORT_DESCRIPTOR_api-ms-win-crt-runtime-l1-1-0 0000000180011340     ucrt:api-ms-win-crt-runtime-l1-1-0.dll
+ 0002:00001354       __NULL_IMPORT_DESCRIPTOR   0000000180011354     sf_runtime:sf_runtime.dll
+ 0003:00000680       DYNAMIC_DIMENSION          0000000180013680     QPSK_send_new_sfun_registry.obj
+ 0003:00002750       __security_cookie_complement 0000000180015750     MSVCRT:gs_cookie.obj
+ 0003:00002758       __security_cookie          0000000180015758     MSVCRT:gs_cookie.obj
+ 0003:00002760       _fltused                   0000000180015760     MSVCRT:fltused.obj
+ 0003:00002764       __scrt_native_dllmain_reason 0000000180015764     MSVCRT:utility.obj
+ 0003:00002768       __isa_available            0000000180015768     MSVCRT:cpu_disp.obj
+ 0003:0000276c       __isa_enabled              000000018001576c     MSVCRT:cpu_disp.obj
+ 0003:00002770       __memcpy_nt_iters          0000000180015770     MSVCRT:cpu_disp.obj
+ 0003:00002780       __scrt_ucrt_dll_is_in_use  0000000180015780     MSVCRT:ucrt_stubs.obj
+ 0003:000027b0       sfGlobalDebugInstanceStruct 00000001800157b0     QPSK_send_new_sfun_registry.obj
+ 0003:00003d40       ?__type_info_root_node@@3U__type_info_node@@A 0000000180016d40     MSVCRT:tncleanup.obj
+ 0003:00003d50       ?_OptionsStorage@?1??__local_stdio_printf_options@@9@4_KA 0000000180016d50     MSVCRT:default_local_stdio_options.obj
+ 0003:00003d58       ?_OptionsStorage@?1??__local_stdio_scanf_options@@9@4_KA 0000000180016d58     MSVCRT:default_local_stdio_options.obj
+ 0003:00003d60       __scrt_current_native_startup_state 0000000180016d60     MSVCRT:utility.obj
+ 0003:00003d68       __scrt_native_startup_lock 0000000180016d68     MSVCRT:utility.obj
+ 0003:00003da8       __scrt_debugger_hook_flag  0000000180016da8     MSVCRT:utility_desktop.obj
+ 0003:00003dac       __favor                    0000000180016dac     MSVCRT:cpu_disp.obj
+ 0003:00003db0       ?_OptionsStorage@?1??__local_stdio_printf_options@@9@9 0000000180016db0     <common>
+ 0003:00003db8       _QPSK_send_newMachineNumber_ 0000000180016db8     <common>
+ 0003:00003dc0       __dyn_tls_init_callback    0000000180016dc0     <common>
+
+ entry point at        0001:0000dcd8
+
+ Static symbols
+
+ 0000:00000000       .debug$S                   0000000180000000     sf_runtime:sf_runtime.dll
+ 0000:00000000       .debug$S                   0000000180000000     sf_runtime:sf_runtime.dll
+ 0000:00000000       .debug$S                   0000000180000000     sf_runtime:sf_runtime.dll
+ 0000:00000000       .debug$S                   0000000180000000     sf_runtime:sf_runtime.dll
+ 0000:00000000       .debug$S                   0000000180000000     sf_runtime:sf_runtime.dll
+ 0000:00000000       .debug$S                   0000000180000000     sf_runtime:sf_runtime.dll
+ 0000:00000000       .debug$S                   0000000180000000     QPSK_send_new_sfun.exp
+ 0000:00000000       .debug$S                   0000000180000000     sf_runtime:sf_runtime.dll
+ 0000:00000000       .debug$S                   0000000180000000     sf_runtime:sf_runtime.dll
+ 0000:00000000       .debug$S                   0000000180000000     sf_runtime:sf_runtime.dll
+ 0000:00000000       .debug$S                   0000000180000000     sf_runtime:sf_runtime.dll
+ 0000:00000000       .debug$S                   0000000180000000     sf_runtime:sf_runtime.dll
+ 0000:00000000       .debug$S                   0000000180000000     ucrt:api-ms-win-crt-runtime-l1-1-0.dll
+ 0000:00000000       .debug$S                   0000000180000000     ucrt:api-ms-win-crt-runtime-l1-1-0.dll
+ 0000:00000000       .debug$S                   0000000180000000     ucrt:api-ms-win-crt-runtime-l1-1-0.dll
+ 0000:00000000       .debug$S                   0000000180000000     ucrt:api-ms-win-crt-runtime-l1-1-0.dll
+ 0000:00000000       .debug$S                   0000000180000000     ucrt:api-ms-win-crt-runtime-l1-1-0.dll
+ 0000:00000000       .debug$S                   0000000180000000     ucrt:api-ms-win-crt-runtime-l1-1-0.dll
+ 0000:00000000       .debug$S                   0000000180000000     ucrt:api-ms-win-crt-runtime-l1-1-0.dll
+ 0000:00000000       .debug$S                   0000000180000000     ucrt:api-ms-win-crt-runtime-l1-1-0.dll
+ 0000:00000000       .debug$S                   0000000180000000     ucrt:api-ms-win-crt-runtime-l1-1-0.dll
+ 0000:00000000       .debug$S                   0000000180000000     ucrt:api-ms-win-crt-runtime-l1-1-0.dll
+ 0000:00000000       .debug$S                   0000000180000000     ucrt:api-ms-win-crt-runtime-l1-1-0.dll
+ 0000:00000000       .debug$S                   0000000180000000     ucrt:api-ms-win-crt-runtime-l1-1-0.dll
+ 0000:00000000       .debug$S                   0000000180000000     ucrt:api-ms-win-crt-string-l1-1-0.dll
+ 0000:00000000       .debug$S                   0000000180000000     ucrt:api-ms-win-crt-heap-l1-1-0.dll
+ 0000:00000000       .debug$S                   0000000180000000     ucrt:api-ms-win-crt-heap-l1-1-0.dll
+ 0000:00000000       .debug$S                   0000000180000000     ucrt:api-ms-win-crt-stdio-l1-1-0.dll
+ 0000:00000000       .debug$S                   0000000180000000     ucrt:api-ms-win-crt-string-l1-1-0.dll
+ 0000:00000000       .debug$S                   0000000180000000     sf_runtime:sf_runtime.dll
+ 0000:00000000       .debug$S                   0000000180000000     vcruntime:VCRUNTIME140.dll
+ 0000:00000000       .debug$S                   0000000180000000     vcruntime:VCRUNTIME140.dll
+ 0000:00000000       .debug$S                   0000000180000000     vcruntime:VCRUNTIME140.dll
+ 0000:00000000       .debug$S                   0000000180000000     vcruntime:VCRUNTIME140.dll
+ 0000:00000000       .debug$S                   0000000180000000     sf_runtime:sf_runtime.dll
+ 0000:00000000       .debug$S                   0000000180000000     kernel32:KERNEL32.dll
+ 0000:00000000       .debug$S                   0000000180000000     kernel32:KERNEL32.dll
+ 0000:00000000       .debug$S                   0000000180000000     kernel32:KERNEL32.dll
+ 0000:00000000       .debug$S                   0000000180000000     kernel32:KERNEL32.dll
+ 0000:00000000       .debug$S                   0000000180000000     kernel32:KERNEL32.dll
+ 0000:00000000       .debug$S                   0000000180000000     kernel32:KERNEL32.dll
+ 0000:00000000       .debug$S                   0000000180000000     kernel32:KERNEL32.dll
+ 0000:00000000       .debug$S                   0000000180000000     kernel32:KERNEL32.dll
+ 0000:00000000       .debug$S                   0000000180000000     kernel32:KERNEL32.dll
+ 0000:00000000       .debug$S                   0000000180000000     kernel32:KERNEL32.dll
+ 0000:00000000       .debug$S                   0000000180000000     kernel32:KERNEL32.dll
+ 0000:00000000       .debug$S                   0000000180000000     kernel32:KERNEL32.dll
+ 0000:00000000       .debug$S                   0000000180000000     kernel32:KERNEL32.dll
+ 0000:00000000       .debug$S                   0000000180000000     kernel32:KERNEL32.dll
+ 0000:00000000       .debug$S                   0000000180000000     kernel32:KERNEL32.dll
+ 0000:00000000       .debug$S                   0000000180000000     kernel32:KERNEL32.dll
+ 0000:00000000       .debug$S                   0000000180000000     kernel32:KERNEL32.dll
+ 0000:00000000       .debug$S                   0000000180000000     sf_runtime:sf_runtime.dll
+ 0000:00000000       .debug$S                   0000000180000000     sf_runtime:sf_runtime.dll
+ 0000:00000000       .debug$S                   0000000180000000     sf_runtime:sf_runtime.dll
+ 0000:00000000       .debug$S                   0000000180000000     sf_runtime:sf_runtime.dll
+ 0002:ffff0000       __guard_fids__guard_icall_checks_enforced 0000000180000000     MSVCRT:guard_support.obj
+ 0002:ffff0000       __guard_fids__             0000000180000000     MSVCRT:guard_support.obj
+ 0000:00000000       .debug$S                   0000000180000000     sf_runtime:sf_runtime.dll
+ 0000:00000000       .debug$S                   0000000180000000     sf_runtime:sf_runtime.dll
+ 0000:00000000       .debug$S                   0000000180000000     sf_runtime:sf_runtime.dll
+ 0000:00000000       .debug$S                   0000000180000000     sf_runtime:sf_runtime.dll
+ 0000:00000000       .debug$S                   0000000180000000     sf_runtime:sf_runtime.dll
+ 0000:00000000       .debug$S                   0000000180000000     sf_runtime:sf_runtime.dll
+ 0000:00000000       .debug$S                   0000000180000000     sf_runtime:sf_runtime.dll
+ 0000:00000000       .debug$S                   0000000180000000     sf_runtime:sf_runtime.dll
+ 0002:ffff0000       __guard_fids___scrt_set_unhandled_exception_filter 0000000180000000     MSVCRT:utility_desktop.obj
+ 0000:00000000       .debug$S                   0000000180000000     sf_runtime:sf_runtime.dll
+ 0000:00000000       .debug$S                   0000000180000000     sf_runtime:sf_runtime.dll
+ 0000:00000000       .debug$S                   0000000180000000     sf_runtime:sf_runtime.dll
+ 0000:00000000       .debug$S                   0000000180000000     sf_runtime:sf_runtime.dll
+ 0000:00000000       .debug$S                   0000000180000000     sf_runtime:sf_runtime.dll
+ 0000:00000000       .debug$S                   0000000180000000     sf_runtime:sf_runtime.dll
+ 0000:00000000       .debug$S                   0000000180000000     sf_runtime:sf_runtime.dll
+ 0000:00000000       .debug$S                   0000000180000000     sf_runtime:sf_runtime.dll
+ 0000:00000000       .debug$S                   0000000180000000     libmx:libmx.dll
+ 0000:00000000       .debug$S                   0000000180000000     libmx:libmx.dll
+ 0000:00000000       .debug$S                   0000000180000000     libmx:libmx.dll
+ 0000:00000000       .debug$S                   0000000180000000     libmx:libmx.dll
+ 0000:00000000       .debug$S                   0000000180000000     libmx:libmx.dll
+ 0000:00000000       .debug$S                   0000000180000000     libmx:libmx.dll
+ 0000:00000000       .debug$S                   0000000180000000     libmx:libmx.dll
+ 0000:00000000       .debug$S                   0000000180000000     libmx:libmx.dll
+ 0000:00000000       .debug$S                   0000000180000000     libmx:libmx.dll
+ 0000:00000000       .debug$S                   0000000180000000     libmx:libmx.dll
+ 0000:00000000       .debug$S                   0000000180000000     libmx:libmx.dll
+ 0000:00000000       .debug$S                   0000000180000000     libmx:libmx.dll
+ 0000:00000000       .debug$S                   0000000180000000     libmx:libmx.dll
+ 0000:00000000       .debug$S                   0000000180000000     libmx:libmx.dll
+ 0000:00000000       .debug$S                   0000000180000000     libmx:libmx.dll
+ 0000:00000000       .debug$S                   0000000180000000     libmx:libmx.dll
+ 0000:00000000       .debug$S                   0000000180000000     libmx:libmx.dll
+ 0000:00000000       .debug$S                   0000000180000000     libmx:libmx.dll
+ 0000:00000000       .debug$S                   0000000180000000     libmx:libmx.dll
+ 0000:00000000       .debug$S                   0000000180000000     libmx:libmx.dll
+ 0000:00000000       .debug$S                   0000000180000000     sf_runtime:sf_runtime.dll
+ 0000:00000000       .debug$S                   0000000180000000     libmex:libmex.dll
+ 0000:00000000       .debug$S                   0000000180000000     libmex:libmex.dll
+ 0000:00000000       .debug$S                   0000000180000000     libmex:libmex.dll
+ 0000:00000000       .debug$S                   0000000180000000     libmex:libmex.dll
+ 0000:00000000       .debug$S                   0000000180000000     libmex:libmex.dll
+ 0000:00000000       .debug$S                   0000000180000000     libmex:libmex.dll
+ 0000:00000000       .debug$S                   0000000180000000     libmex:libmex.dll
+ 0000:00000000       .debug$S                   0000000180000000     sf_runtime:sf_runtime.dll
+ 0000:00000000       .debug$S                   0000000180000000     libut:libut.dll
+ 0000:00000000       .debug$S                   0000000180000000     libut:libut.dll
+ 0000:00000000       .debug$S                   0000000180000000     sf_runtime:sf_runtime.dll
+ 0000:00000000       .debug$S                   0000000180000000     sf_runtime:sf_runtime.dll
+ 0000:00000000       .debug$S                   0000000180000000     sf_runtime:sf_runtime.dll
+ 0000:00000000       .debug$S                   0000000180000000     sf_runtime:sf_runtime.dll
+ 0000:00000000       .debug$S                   0000000180000000     sf_runtime:sf_runtime.dll
+ 0000:00000000       .debug$S                   0000000180000000     sf_runtime:sf_runtime.dll
+ 0000:00000000       .debug$S                   0000000180000000     sf_runtime:sf_runtime.dll
+ 0000:00000000       .debug$S                   0000000180000000     sf_runtime:sf_runtime.dll
+ 0000:00000000       .debug$S                   0000000180000000     sf_runtime:sf_runtime.dll
+ 0000:00000000       .debug$S                   0000000180000000     sf_runtime:sf_runtime.dll
+ 0000:00000000       .debug$S                   0000000180000000     sf_runtime:sf_runtime.dll
+ 0000:00000000       .debug$S                   0000000180000000     sf_runtime:sf_runtime.dll
+ 0000:00000000       .debug$S                   0000000180000000     sf_runtime:sf_runtime.dll
+ 0000:00000000       .debug$S                   0000000180000000     sf_runtime:sf_runtime.dll
+ 0000:00000000       .debug$S                   0000000180000000     sf_runtime:sf_runtime.dll
+ 0000:00000000       .debug$S                   0000000180000000     sf_runtime:sf_runtime.dll
+ 0000:00000000       .debug$S                   0000000180000000     sf_runtime:sf_runtime.dll
+ 0000:00000000       .debug$S                   0000000180000000     sf_runtime:sf_runtime.dll
+ 0000:00000000       .debug$S                   0000000180000000     sf_runtime:sf_runtime.dll
+ 0000:00000000       .debug$S                   0000000180000000     sf_runtime:sf_runtime.dll
+ 0000:00000000       .debug$S                   0000000180000000     sf_runtime:sf_runtime.dll
+ 0000:00000000       .debug$S                   0000000180000000     sf_runtime:sf_runtime.dll
+ 0002:ffff0000       __guard_fids_?dllmain_dispatch@@YAHQEAUHINSTANCE__@@KQEAX@Z 0000000180000000     MSVCRT:dll_dllmain.obj
+ 0000:00000000       .debug$S                   0000000180000000     sf_runtime:sf_runtime.dll
+ 0000:00000000       .debug$S                   0000000180000000     sf_runtime:sf_runtime.dll
+ 0000:00000000       .debug$S                   0000000180000000     sf_runtime:sf_runtime.dll
+ 0000:00000000       .debug$S                   0000000180000000     sf_runtime:sf_runtime.dll
+ 0000:00000000       .debug$S                   0000000180000000     sf_runtime:sf_runtime.dll
+ 0000:00000000       .debug$S                   0000000180000000     sf_runtime:sf_runtime.dll
+ 0000:00000000       .debug$S                   0000000180000000     sf_runtime:sf_runtime.dll
+ 0000:00000000       .debug$S                   0000000180000000     sf_runtime:sf_runtime.dll
+ 0000:00000000       .debug$S                   0000000180000000     sf_runtime:sf_runtime.dll
+ 0000:00000000       .debug$S                   0000000180000000     sf_runtime:sf_runtime.dll
+ 0000:00000000       .debug$S                   0000000180000000     sf_runtime:sf_runtime.dll
+ 0000:00000000       .debug$S                   0000000180000000     sf_runtime:sf_runtime.dll
+ 0000:00000000       .debug$S                   0000000180000000     sf_runtime:sf_runtime.dll
+ 0001:000011c0       chart_debug_initialization 00000001800021c0 f   c2_QPSK_send_new.obj
+ 0001:00001860       chart_debug_initialize_data_addresses 0000000180002860 f   c2_QPSK_send_new.obj
+ 0001:00001960       initialize_c2_QPSK_send_new 0000000180002960 f   c2_QPSK_send_new.obj
+ 0001:000019d0       initialize_params_c2_QPSK_send_new 00000001800029d0 f   c2_QPSK_send_new.obj
+ 0001:000019e0       enable_c2_QPSK_send_new    00000001800029e0 f   c2_QPSK_send_new.obj
+ 0001:00001a10       disable_c2_QPSK_send_new   0000000180002a10 f   c2_QPSK_send_new.obj
+ 0001:00001a40       c2_update_debugger_state_c2_QPSK_send_new 0000000180002a40 f   c2_QPSK_send_new.obj
+ 0001:00001a50       get_sim_state_c2_QPSK_send_new 0000000180002a50 f   c2_QPSK_send_new.obj
+ 0001:00001bc0       set_sim_state_c2_QPSK_send_new 0000000180002bc0 f   c2_QPSK_send_new.obj
+ 0001:00001d00       finalize_c2_QPSK_send_new  0000000180002d00 f   c2_QPSK_send_new.obj
+ 0001:00001d10       sf_gateway_c2_QPSK_send_new 0000000180002d10 f   c2_QPSK_send_new.obj
+ 0001:00002370       mdl_start_c2_QPSK_send_new 0000000180003370 f   c2_QPSK_send_new.obj
+ 0001:000023a0       initSimStructsc2_QPSK_send_new 00000001800033a0 f   c2_QPSK_send_new.obj
+ 0001:000023b0       init_script_number_translation 00000001800033b0 f   c2_QPSK_send_new.obj
+ 0001:000023d0       c2_sf_marshallOut          00000001800033d0 f   c2_QPSK_send_new.obj
+ 0001:000024e0       c2_emlrt_marshallIn        00000001800034e0 f   c2_QPSK_send_new.obj
+ 0001:00002550       c2_b_emlrt_marshallIn      0000000180003550 f   c2_QPSK_send_new.obj
+ 0001:00002640       c2_sf_marshallIn           0000000180003640 f   c2_QPSK_send_new.obj
+ 0001:00002740       c2_b_sf_marshallOut        0000000180003740 f   c2_QPSK_send_new.obj
+ 0001:00002860       c2_c_sf_marshallOut        0000000180003860 f   c2_QPSK_send_new.obj
+ 0001:00002910       c2_c_emlrt_marshallIn      0000000180003910 f   c2_QPSK_send_new.obj
+ 0001:000029a0       c2_b_sf_marshallIn         00000001800039a0 f   c2_QPSK_send_new.obj
+ 0001:00002a40       c2_e_emlrt_marshallIn      0000000180003a40 f   c2_QPSK_send_new.obj
+ 0001:00002ab0       c2_f_emlrt_marshallIn      0000000180003ab0 f   c2_QPSK_send_new.obj
+ 0001:00002b40       init_dsm_address_info      0000000180003b40 f   c2_QPSK_send_new.obj
+ 0001:00002b50       init_simulink_io_address   0000000180003b50 f   c2_QPSK_send_new.obj
+ 0001:00003330       sf_get_sim_state_info_c2_QPSK_send_new 0000000180004330 f   c2_QPSK_send_new.obj
+ 0001:00003400       sf_get_instance_specialization 0000000180004400 f   c2_QPSK_send_new.obj
+ 0001:00003410       sf_opaque_initialize_c2_QPSK_send_new 0000000180004410 f   c2_QPSK_send_new.obj
+ 0001:00003450       sf_opaque_enable_c2_QPSK_send_new 0000000180004450 f   c2_QPSK_send_new.obj
+ 0001:00003470       sf_opaque_disable_c2_QPSK_send_new 0000000180004470 f   c2_QPSK_send_new.obj
+ 0001:00003490       sf_opaque_gateway_c2_QPSK_send_new 0000000180004490 f   c2_QPSK_send_new.obj
+ 0001:000034b0       sf_opaque_get_sim_state_c2_QPSK_send_new 00000001800044b0 f   c2_QPSK_send_new.obj
+ 0001:000034e0       sf_opaque_set_sim_state_c2_QPSK_send_new 00000001800044e0 f   c2_QPSK_send_new.obj
+ 0001:00003510       sf_opaque_terminate_c2_QPSK_send_new 0000000180004510 f   c2_QPSK_send_new.obj
+ 0001:000035b0       mdlProcessParameters_c2_QPSK_send_new 00000001800045b0 f   c2_QPSK_send_new.obj
+ 0001:00003670       mdlSetWorkWidths_c2_QPSK_send_new 0000000180004670 f   c2_QPSK_send_new.obj
+ 0001:00003d00       mdlRTW_c2_QPSK_send_new    0000000180004d00 f   c2_QPSK_send_new.obj
+ 0001:00003d40       mdlStart_c2_QPSK_send_new  0000000180004d40 f   c2_QPSK_send_new.obj
+ 0001:0000647c       $LN180                     000000018000747c     QPSK_send_new_sfun_registry.obj
+ 0001:00008644       $LN17                      0000000180009644     QPSK_send_new_sfun_registry.obj
+ 0001:00008bcc       $LN26                      0000000180009bcc     QPSK_send_new_sfun_registry.obj
+ 0001:000092b4       $LN23                      000000018000a2b4     QPSK_send_new_sfun_registry.obj
+ 0001:00009884       $LN26                      000000018000a884     QPSK_send_new_sfun_registry.obj
+ 0001:0000b530       sf_debug_api_wrapper       000000018000c530 f   QPSK_send_new_sfun_registry.obj
+ 0001:0000b580       ProcessMexSfunctionCmdLineCall 000000018000c580 f   QPSK_send_new_sfun_registry.obj
+ 0001:0000b8f0       mdlSetWorkWidths           000000018000c8f0 f   QPSK_send_new_sfun_registry.obj
+ 0001:0000b940       mdlProcessParameters       000000018000c940 f   QPSK_send_new_sfun_registry.obj
+ 0001:0000b970       mdl_start_processing       000000018000c970 f   QPSK_send_new_sfun_registry.obj
+ 0001:0000b9d0       mdl_terminate_processing   000000018000c9d0 f   QPSK_send_new_sfun_registry.obj
+ 0001:0000ba90       mdlStart                   000000018000ca90 f   QPSK_send_new_sfun_registry.obj
+ 0001:0000bac0       mdlTerminate               000000018000cac0 f   QPSK_send_new_sfun_registry.obj
+ 0001:0000baf0       mdlInitializeSizes         000000018000caf0 f   QPSK_send_new_sfun_registry.obj
+ 0001:0000bb20       mdlInitializeSampleTimes   000000018000cb20 f   QPSK_send_new_sfun_registry.obj
+ 0001:0000bb50       mdl_outputs_continuous_legacy 000000018000cb50 f   QPSK_send_new_sfun_registry.obj
+ 0001:0000bc50       mdl_outputs_processing     000000018000cc50 f   QPSK_send_new_sfun_registry.obj
+ 0001:0000bd70       mdl_zeroCrossings_processing 000000018000cd70 f   QPSK_send_new_sfun_registry.obj
+ 0001:0000bdb0       mdlZeroCrossings           000000018000cdb0 f   QPSK_send_new_sfun_registry.obj
+ 0001:0000bde0       mdl_derivatives_processing 000000018000cde0 f   QPSK_send_new_sfun_registry.obj
+ 0001:0000be30       mdlDerivatives             000000018000ce30 f   QPSK_send_new_sfun_registry.obj
+ 0001:0000be60       mdl_initialize_conditions_processing 000000018000ce60 f   QPSK_send_new_sfun_registry.obj
+ 0001:0000beb0       mdlInitializeConditions    000000018000ceb0 f   QPSK_send_new_sfun_registry.obj
+ 0001:0000bee0       mdl_ext_mode_exec_processing 000000018000cee0 f   QPSK_send_new_sfun_registry.obj
+ 0001:0000bf20       mdlExtModeExec             000000018000cf20 f   QPSK_send_new_sfun_registry.obj
+ 0001:0000bf50       mdlRTW                     000000018000cf50 f   QPSK_send_new_sfun_registry.obj
+ 0001:0000bf90       mdl_enable_processing      000000018000cf90 f   QPSK_send_new_sfun_registry.obj
+ 0001:0000bfd0       mdlEnable                  000000018000cfd0 f   QPSK_send_new_sfun_registry.obj
+ 0001:0000c000       mdl_disable_processing     000000018000d000 f   QPSK_send_new_sfun_registry.obj
+ 0001:0000c040       mdlDisable                 000000018000d040 f   QPSK_send_new_sfun_registry.obj
+ 0001:0000c070       mdlOutputs                 000000018000d070 f   QPSK_send_new_sfun_registry.obj
+ 0001:0000c0a0       mdl_update_processing      000000018000d0a0 f   QPSK_send_new_sfun_registry.obj
+ 0001:0000c0f0       mdlUpdate                  000000018000d0f0 f   QPSK_send_new_sfun_registry.obj
+ 0001:0000c2d0       mdlGetTimeOfNextVarHit     000000018000d2d0 f   QPSK_send_new_sfun_registry.obj
+ 0001:0000c320       _RegNumInputPortsCB        000000018000d320 f   QPSK_send_new_sfun_registry.obj
+ 0001:0000c3a0       _RegNumOutputPortsCB       000000018000d3a0 f   QPSK_send_new_sfun_registry.obj
+ 0001:0000c420       _CreateSimStruct           000000018000d420 f   QPSK_send_new_sfun_registry.obj
+ 0001:0000c620       _ProcessMexSfunctionCmdLineCall 000000018000d620 f   QPSK_send_new_sfun_registry.obj
+ 0001:0000d060       ReportIndexOutOfBoundsError 000000018000e060 f   QPSK_send_new_sfun_registry.obj
+ 0001:0000d7ec       capture_current_context    000000018000e7ec f   MSVCRT:gs_report.obj
+ 0001:0000d85c       capture_previous_context   000000018000e85c f   MSVCRT:gs_report.obj
+ 0001:0000d950       $$000000                   000000018000e950     MSVCRT:amdsecgs.obj
+ 0001:0000d984       ?dllmain_crt_dispatch@@YAHQEAUHINSTANCE__@@KQEAX@Z 000000018000e984 f   MSVCRT:dll_dllmain.obj
+ 0001:0000d9d4       ?dllmain_crt_process_attach@@YAHQEAUHINSTANCE__@@QEAX@Z 000000018000e9d4 f   MSVCRT:dll_dllmain.obj
+ 0001:0000daf0       ?dllmain_crt_process_detach@@YAH_N@Z 000000018000eaf0 f   MSVCRT:dll_dllmain.obj
+ 0001:0000db80       ?dllmain_dispatch@@YAHQEAUHINSTANCE__@@KQEAX@Z 000000018000eb80 f   MSVCRT:dll_dllmain.obj
+ 0001:0000dcb4       ?dllmain_raw@@YAHQEAUHINSTANCE__@@KQEAX@Z 000000018000ecb4 f   MSVCRT:dll_dllmain.obj
+ 0001:0000dd18       __get_entropy              000000018000ed18 f   MSVCRT:gs_support.obj
+ 0001:0000deec       ?find_pe_section@@YAPEAU_IMAGE_SECTION_HEADER@@QEAE_K@Z 000000018000eeec f   MSVCRT:utility.obj
+ 0001:0000df40       ?is_potentially_valid_image_base@@YA_NQEAX@Z 000000018000ef40 f   MSVCRT:utility.obj
+ 0001:0000e950       $$000000                   000000018000f950     MSVCRT:guard_dispatch.obj
+ 0001:0000e962       ?fin$0@?0??dllmain_crt_process_attach@@YAHQEAUHINSTANCE__@@QEAX@Z@4HA 000000018000f962 f   MSVCRT:dll_dllmain.obj
+ 0001:0000e979       ?fin$0@?0??dllmain_crt_process_detach@@YAH_N@Z@4HA 000000018000f979 f   MSVCRT:dll_dllmain.obj
+ 0001:0000e995       ?filt$0@?0??dllmain_dispatch@@YAHQEAUHINSTANCE__@@KQEAX@Z@4HA 000000018000f995 f   MSVCRT:dll_dllmain.obj
+ 0001:0000e9cb       __scrt_is_nonwritable_in_current_image$filt$0 000000018000f9cb f   MSVCRT:utility.obj
+ 0002:000005d0       GS_ExceptionPointers       00000001800105d0     MSVCRT:gs_report.obj
+ 0002:00000948       $unwind$load_QPSK_send_new_optimization_info 0000000180010948     QPSK_send_new_sfun.obj
+ 0002:00000950       $unwind$unload_QPSK_send_new_optimization_info 0000000180010950     QPSK_send_new_sfun.obj
+ 0002:00000958       $unwind$sf_QPSK_send_new_method_dispatcher 0000000180010958     QPSK_send_new_sfun.obj
+ 0002:00000960       $unwind$sf_QPSK_send_new_process_check_sum_call 0000000180010960     QPSK_send_new_sfun.obj
+ 0002:00000970       $unwind$sf_QPSK_send_new_autoinheritance_info 0000000180010970     QPSK_send_new_sfun.obj
+ 0002:00000980       $unwind$sf_QPSK_send_new_get_eml_resolved_functions_info 0000000180010980     QPSK_send_new_sfun.obj
+ 0002:00000990       $unwind$sf_QPSK_send_new_third_party_uses_info 0000000180010990     QPSK_send_new_sfun.obj
+ 0002:000009a0       $unwind$sf_QPSK_send_new_jit_fallback_info 00000001800109a0     QPSK_send_new_sfun.obj
+ 0002:000009b0       $unwind$sf_QPSK_send_new_updateBuildInfo_args_info 00000001800109b0     QPSK_send_new_sfun.obj
+ 0002:000009c0       $unwind$QPSK_send_new_debug_initialize 00000001800109c0     QPSK_send_new_sfun.obj
+ 0002:000009c8       $unwind$sf_c2_QPSK_send_new_get_eml_resolved_functions_info 00000001800109c8     c2_QPSK_send_new.obj
+ 0002:000009d0       $unwind$sf_c2_QPSK_send_new_get_check_sum 00000001800109d0     c2_QPSK_send_new.obj
+ 0002:000009d8       $unwind$c2_QPSK_send_new_method_dispatcher 00000001800109d8     c2_QPSK_send_new.obj
+ 0002:000009e0       $unwind$chart_debug_initialization 00000001800109e0     c2_QPSK_send_new.obj
+ 0002:000009e8       $unwind$chart_debug_initialize_data_addresses 00000001800109e8     c2_QPSK_send_new.obj
+ 0002:000009f0       $unwind$initialize_c2_QPSK_send_new 00000001800109f0     c2_QPSK_send_new.obj
+ 0002:000009f8       $unwind$enable_c2_QPSK_send_new 00000001800109f8     c2_QPSK_send_new.obj
+ 0002:00000a00       $unwind$disable_c2_QPSK_send_new 0000000180010a00     c2_QPSK_send_new.obj
+ 0002:00000a08       $unwind$get_sim_state_c2_QPSK_send_new 0000000180010a08     c2_QPSK_send_new.obj
+ 0002:00000a10       $unwind$set_sim_state_c2_QPSK_send_new 0000000180010a10     c2_QPSK_send_new.obj
+ 0002:00000a20       $unwind$sf_gateway_c2_QPSK_send_new 0000000180010a20     c2_QPSK_send_new.obj
+ 0002:00000a30       $unwind$mdl_start_c2_QPSK_send_new 0000000180010a30     c2_QPSK_send_new.obj
+ 0002:00000a38       $unwind$c2_sf_marshallOut  0000000180010a38     c2_QPSK_send_new.obj
+ 0002:00000a48       $unwind$c2_emlrt_marshallIn 0000000180010a48     c2_QPSK_send_new.obj
+ 0002:00000a50       $unwind$c2_b_emlrt_marshallIn 0000000180010a50     c2_QPSK_send_new.obj
+ 0002:00000a60       $unwind$c2_sf_marshallIn   0000000180010a60     c2_QPSK_send_new.obj
+ 0002:00000a70       $unwind$c2_b_sf_marshallOut 0000000180010a70     c2_QPSK_send_new.obj
+ 0002:00000a80       $unwind$c2_c_sf_marshallOut 0000000180010a80     c2_QPSK_send_new.obj
+ 0002:00000a88       $unwind$c2_c_emlrt_marshallIn 0000000180010a88     c2_QPSK_send_new.obj
+ 0002:00000a90       $unwind$c2_b_sf_marshallIn 0000000180010a90     c2_QPSK_send_new.obj
+ 0002:00000a98       $unwind$c2_e_emlrt_marshallIn 0000000180010a98     c2_QPSK_send_new.obj
+ 0002:00000aa0       $unwind$c2_f_emlrt_marshallIn 0000000180010aa0     c2_QPSK_send_new.obj
+ 0002:00000aa8       $unwind$init_simulink_io_address 0000000180010aa8     c2_QPSK_send_new.obj
+ 0002:00000ab0       $unwind$sf_c2_QPSK_send_new_get_post_codegen_info 0000000180010ab0     c2_QPSK_send_new.obj
+ 0002:00000ab8       $unwind$sf_c2_QPSK_send_new_get_autoinheritance_info 0000000180010ab8     c2_QPSK_send_new.obj
+ 0002:00000ac8       $unwind$sf_c2_QPSK_send_new_third_party_uses_info 0000000180010ac8     c2_QPSK_send_new.obj
+ 0002:00000ad0       $unwind$sf_c2_QPSK_send_new_jit_fallback_info 0000000180010ad0     c2_QPSK_send_new.obj
+ 0002:00000ae0       $unwind$sf_c2_QPSK_send_new_updateBuildInfo_args_info 0000000180010ae0     c2_QPSK_send_new.obj
+ 0002:00000ae8       $unwind$sf_get_sim_state_info_c2_QPSK_send_new 0000000180010ae8     c2_QPSK_send_new.obj
+ 0002:00000af0       $unwind$sf_opaque_initialize_c2_QPSK_send_new 0000000180010af0     c2_QPSK_send_new.obj
+ 0002:00000af8       $unwind$sf_opaque_enable_c2_QPSK_send_new 0000000180010af8     c2_QPSK_send_new.obj
+ 0002:00000b00       $unwind$sf_opaque_disable_c2_QPSK_send_new 0000000180010b00     c2_QPSK_send_new.obj
+ 0002:00000b08       $unwind$sf_opaque_gateway_c2_QPSK_send_new 0000000180010b08     c2_QPSK_send_new.obj
+ 0002:00000b10       $unwind$sf_opaque_get_sim_state_c2_QPSK_send_new 0000000180010b10     c2_QPSK_send_new.obj
+ 0002:00000b18       $unwind$sf_opaque_set_sim_state_c2_QPSK_send_new 0000000180010b18     c2_QPSK_send_new.obj
+ 0002:00000b20       $unwind$sf_opaque_terminate_c2_QPSK_send_new 0000000180010b20     c2_QPSK_send_new.obj
+ 0002:00000b28       $unwind$mdlProcessParameters_c2_QPSK_send_new 0000000180010b28     c2_QPSK_send_new.obj
+ 0002:00000b30       $unwind$mdlSetWorkWidths_c2_QPSK_send_new 0000000180010b30     c2_QPSK_send_new.obj
+ 0002:00000b38       $unwind$mdlRTW_c2_QPSK_send_new 0000000180010b38     c2_QPSK_send_new.obj
+ 0002:00000b40       $unwind$mdlStart_c2_QPSK_send_new 0000000180010b40     c2_QPSK_send_new.obj
+ 0002:00000b48       $unwind$_vsnprintf_l       0000000180010b48     QPSK_send_new_sfun_registry.obj
+ 0002:00000b50       $unwind$_vsprintf_l        0000000180010b50     QPSK_send_new_sfun_registry.obj
+ 0002:00000b58       $unwind$sprintf            0000000180010b58     QPSK_send_new_sfun_registry.obj
+ 0002:00000b60       $unwind$mexFunction        0000000180010b60     QPSK_send_new_sfun_registry.obj
+ 0002:00000b70       $unwind$_ssSetInputPortDirectFeedThroughFcn 0000000180010b70     QPSK_send_new_sfun_registry.obj
+ 0002:00000b80       $unwind$_ssGetInputPortSignalPtrsFcn 0000000180010b80     QPSK_send_new_sfun_registry.obj
+ 0002:00000b90       $unwind$_ssGetInputPortSignalFcn 0000000180010b90     QPSK_send_new_sfun_registry.obj
+ 0002:00000ba0       $unwind$_ssSetInputPortReusableFcn 0000000180010ba0     QPSK_send_new_sfun_registry.obj
+ 0002:00000ba8       $unwind$_ssSetOutputPortReusableFcn 0000000180010ba8     QPSK_send_new_sfun_registry.obj
+ 0002:00000bb0       $unwind$_ssSetSymbolicDimsSupport 0000000180010bb0     QPSK_send_new_sfun_registry.obj
+ 0002:00000bb8       $unwind$_ssRegisterSymbolicDimsExpr 0000000180010bb8     QPSK_send_new_sfun_registry.obj
+ 0002:00000bc0       $unwind$_ssRegisterSymbolicDims 0000000180010bc0     QPSK_send_new_sfun_registry.obj
+ 0002:00000bc8       $unwind$_ssRegisterSymbolicDimsString 0000000180010bc8     QPSK_send_new_sfun_registry.obj
+ 0002:00000bd0       $unwind$_ssRegisterSymbolicDimsIntValue 0000000180010bd0     QPSK_send_new_sfun_registry.obj
+ 0002:00000bd8       $unwind$_ssRegisterSymbolicDimsPlus 0000000180010bd8     QPSK_send_new_sfun_registry.obj
+ 0002:00000be0       $unwind$_ssRegisterSymbolicDimsMinus 0000000180010be0     QPSK_send_new_sfun_registry.obj
+ 0002:00000be8       $unwind$_ssRegisterSymbolicDimsMultiply 0000000180010be8     QPSK_send_new_sfun_registry.obj
+ 0002:00000bf0       $unwind$_ssRegisterSymbolicDimsDivide 0000000180010bf0     QPSK_send_new_sfun_registry.obj
+ 0002:00000bf8       $unwind$_ssGetNumSymbolicDims 0000000180010bf8     QPSK_send_new_sfun_registry.obj
+ 0002:00000c00       $unwind$_ssGetSymbolicDim  0000000180010c00     QPSK_send_new_sfun_registry.obj
+ 0002:00000c08       $unwind$_ssSetInputPortSymbolicDimsId 0000000180010c08     QPSK_send_new_sfun_registry.obj
+ 0002:00000c10       $unwind$_ssGetCompInputPortSymbolicDimsId 0000000180010c10     QPSK_send_new_sfun_registry.obj
+ 0002:00000c18       $unwind$_ssSetCompInputPortSymbolicDimsId 0000000180010c18     QPSK_send_new_sfun_registry.obj
+ 0002:00000c20       $unwind$_ssSetOutputPortSymbolicDimsId 0000000180010c20     QPSK_send_new_sfun_registry.obj
+ 0002:00000c28       $unwind$_ssGetCompOutputPortSymbolicDimsId 0000000180010c28     QPSK_send_new_sfun_registry.obj
+ 0002:00000c30       $unwind$_ssSetCompOutputPortSymbolicDimsId 0000000180010c30     QPSK_send_new_sfun_registry.obj
+ 0002:00000c38       $unwind$_ssSetCompDWorkSymbolicDimsId 0000000180010c38     QPSK_send_new_sfun_registry.obj
+ 0002:00000c40       $unwind$ssGetIsZeroCrossControlDisabled 0000000180010c40     QPSK_send_new_sfun_registry.obj
+ 0002:00000c48       $unwind$ssSetIsInputPortUsedForContZcSignal 0000000180010c48     QPSK_send_new_sfun_registry.obj
+ 0002:00000c50       $unwind$ssSetZcSignalIsZcElementDisc 0000000180010c50     QPSK_send_new_sfun_registry.obj
+ 0002:00000c60       $unwind$ssSetZcSignalName  0000000180010c60     QPSK_send_new_sfun_registry.obj
+ 0002:00000c68       $unwind$ssSetZcSignalWidth 0000000180010c68     QPSK_send_new_sfun_registry.obj
+ 0002:00000c70       $unwind$ssSetZcSignalZcEventType 0000000180010c70     QPSK_send_new_sfun_registry.obj
+ 0002:00000c78       $unwind$ssSetZcSignalType  0000000180010c78     QPSK_send_new_sfun_registry.obj
+ 0002:00000c80       $unwind$ssSetZcSignalZcTol 0000000180010c80     QPSK_send_new_sfun_registry.obj
+ 0002:00000c88       $unwind$ssSetZcSignalNeedsEventNotification 0000000180010c88     QPSK_send_new_sfun_registry.obj
+ 0002:00000c90       $unwind$ssCreateAndAddZcSignalInfo 0000000180010c90     QPSK_send_new_sfun_registry.obj
+ 0002:00000c98       $unwind$ssCloneAndAddZcSignalInfo 0000000180010c98     QPSK_send_new_sfun_registry.obj
+ 0002:00000ca0       $unwind$ssGetNumZcSignals  0000000180010ca0     QPSK_send_new_sfun_registry.obj
+ 0002:00000ca8       $unwind$ssGetZcSignalVector 0000000180010ca8     QPSK_send_new_sfun_registry.obj
+ 0002:00000cb0       $unwind$ssGetZcSignalName  0000000180010cb0     QPSK_send_new_sfun_registry.obj
+ 0002:00000cb8       $unwind$ssGetZcSignalWidth 0000000180010cb8     QPSK_send_new_sfun_registry.obj
+ 0002:00000cc0       $unwind$ssGetZcSignalZcEventType 0000000180010cc0     QPSK_send_new_sfun_registry.obj
+ 0002:00000cc8       $unwind$ssGetZcSignalZcEvents 0000000180010cc8     QPSK_send_new_sfun_registry.obj
+ 0002:00000cd0       $unwind$ssGetZcSignalType  0000000180010cd0     QPSK_send_new_sfun_registry.obj
+ 0002:00000cd8       $unwind$ssGetZcSignalZcTol 0000000180010cd8     QPSK_send_new_sfun_registry.obj
+ 0002:00000ce0       $unwind$ssGetZcSignalNeedsEventNotification 0000000180010ce0     QPSK_send_new_sfun_registry.obj
+ 0002:00000ce8       $unwind$ssGetZcSignalIsZcElementDisc 0000000180010ce8     QPSK_send_new_sfun_registry.obj
+ 0002:00000cf8       $unwind$ssGetIsInputPortElementContinuous 0000000180010cf8     QPSK_send_new_sfun_registry.obj
+ 0002:00000d08       $unwind$_ssSetIWorkValueFcn 0000000180010d08     QPSK_send_new_sfun_registry.obj
+ 0002:00000d10       $unwind$_ssGetIWorkValueFcn 0000000180010d10     QPSK_send_new_sfun_registry.obj
+ 0002:00000d18       $unwind$_ssSetRWorkValueFcn 0000000180010d18     QPSK_send_new_sfun_registry.obj
+ 0002:00000d20       $unwind$_ssGetRWorkValueFcn 0000000180010d20     QPSK_send_new_sfun_registry.obj
+ 0002:00000d28       $unwind$_ssSetPWorkValueFcn 0000000180010d28     QPSK_send_new_sfun_registry.obj
+ 0002:00000d30       $unwind$_ssGetPWorkValueFcn 0000000180010d30     QPSK_send_new_sfun_registry.obj
+ 0002:00000d38       $unwind$ssGetDTypeIdFromMxArray 0000000180010d38     QPSK_send_new_sfun_registry.obj
+ 0002:00000d40       $unwind$ssWriteRTWStr      0000000180010d40     QPSK_send_new_sfun_registry.obj
+ 0002:00000d48       $unwind$ssWriteRTWNameValuePair 0000000180010d48     QPSK_send_new_sfun_registry.obj
+ 0002:00000d50       $unwind$ssWriteRTWParamSettings 0000000180010d50     QPSK_send_new_sfun_registry.obj
+ 0002:00000d58       $unwind$ssWriteRTWParameters 0000000180010d58     QPSK_send_new_sfun_registry.obj
+ 0002:00000d60       $unwind$ssWriteRTWWorkVect 0000000180010d60     QPSK_send_new_sfun_registry.obj
+ 0002:00000d74       $unwind$ssWriteRTWMxVectParam 0000000180010d74     QPSK_send_new_sfun_registry.obj
+ 0002:00000d7c       $unwind$ssWriteRTWMx2dMatParam 0000000180010d7c     QPSK_send_new_sfun_registry.obj
+ 0002:00000d84       $unwind$_ssSetInputPortMatrixDimensions 0000000180010d84     QPSK_send_new_sfun_registry.obj
+ 0002:00000d90       $unwind$_ssSetOutputPortMatrixDimensions 0000000180010d90     QPSK_send_new_sfun_registry.obj
+ 0002:00000d9c       $unwind$_ssSetInputPortVectorDimension 0000000180010d9c     QPSK_send_new_sfun_registry.obj
+ 0002:00000da8       $unwind$_ssSetOutputPortVectorDimension 0000000180010da8     QPSK_send_new_sfun_registry.obj
+ 0002:00000db4       $unwind$ssIsRunTimeParamTunable 0000000180010db4     QPSK_send_new_sfun_registry.obj
+ 0002:00000dbc       $unwind$ssGetSFuncBlockHandle 0000000180010dbc     QPSK_send_new_sfun_registry.obj
+ 0002:00000dc4       $unwind$_ssGetCurrentInputPortWidth 0000000180010dc4     QPSK_send_new_sfun_registry.obj
+ 0002:00000dcc       $unwind$_ssGetCurrentOutputPortWidth 0000000180010dcc     QPSK_send_new_sfun_registry.obj
+ 0002:00000dd4       $unwind$_ssGetCallSystemNumFcnCallDestinations 0000000180010dd4     QPSK_send_new_sfun_registry.obj
+ 0002:00000ddc       $unwind$ssGetParameterTuningCompliance 0000000180010ddc     QPSK_send_new_sfun_registry.obj
+ 0002:00000de4       $unwind$ssWarning          0000000180010de4     QPSK_send_new_sfun_registry.obj
+ 0002:00000df8       $unwind$_ssGetAbsTol       0000000180010df8     QPSK_send_new_sfun_registry.obj
+ 0002:00000e00       $unwind$sf_process_check_sum_call 0000000180010e00     QPSK_send_new_sfun_registry.obj
+ 0002:00000e08       $unwind$sf_process_autoinheritance_call 0000000180010e08     QPSK_send_new_sfun_registry.obj
+ 0002:00000e18       $unwind$sf_process_get_third_party_uses_info_call 0000000180010e18     QPSK_send_new_sfun_registry.obj
+ 0002:00000e28       $unwind$sf_process_get_jit_fallback_info_call 0000000180010e28     QPSK_send_new_sfun_registry.obj
+ 0002:00000e38       $unwind$sf_process_get_updateBuildInfo_args_info_call 0000000180010e38     QPSK_send_new_sfun_registry.obj
+ 0002:00000e48       $unwind$sf_process_get_eml_resolved_functions_info_call 0000000180010e48     QPSK_send_new_sfun_registry.obj
+ 0002:00000e58       $unwind$sf_mex_unlock_call 0000000180010e58     QPSK_send_new_sfun_registry.obj
+ 0002:00000e68       $unwind$sf_debug_api_wrapper 0000000180010e68     QPSK_send_new_sfun_registry.obj
+ 0002:00000e70       $unwind$ProcessMexSfunctionCmdLineCall 0000000180010e70     QPSK_send_new_sfun_registry.obj
+ 0002:00000e78       $unwind$sf_machine_global_initializer_called 0000000180010e78     QPSK_send_new_sfun_registry.obj
+ 0002:00000e80       $unwind$sf_machine_global_method_dispatcher 0000000180010e80     QPSK_send_new_sfun_registry.obj
+ 0002:00000e88       $unwind$sf_machine_global_terminator 0000000180010e88     QPSK_send_new_sfun_registry.obj
+ 0002:00000e90       $unwind$sf_register_machine_exported_symbols 0000000180010e90     QPSK_send_new_sfun_registry.obj
+ 0002:00000e98       $unwind$sf_machine_global_initializer 0000000180010e98     QPSK_send_new_sfun_registry.obj
+ 0002:00000ea0       $unwind$mdlGetSimState     0000000180010ea0     QPSK_send_new_sfun_registry.obj
+ 0002:00000ea8       $unwind$mdlSetSimState     0000000180010ea8     QPSK_send_new_sfun_registry.obj
+ 0002:00000eb0       $unwind$mdlSetWorkWidths   0000000180010eb0     QPSK_send_new_sfun_registry.obj
+ 0002:00000eb8       $unwind$mdlProcessParameters 0000000180010eb8     QPSK_send_new_sfun_registry.obj
+ 0002:00000ec0       $unwind$mdl_start_processing 0000000180010ec0     QPSK_send_new_sfun_registry.obj
+ 0002:00000ec8       $unwind$mdl_terminate_processing 0000000180010ec8     QPSK_send_new_sfun_registry.obj
+ 0002:00000ed0       $unwind$mdlStart           0000000180010ed0     QPSK_send_new_sfun_registry.obj
+ 0002:00000ed8       $unwind$mdlTerminate       0000000180010ed8     QPSK_send_new_sfun_registry.obj
+ 0002:00000ee0       $unwind$mdlInitializeSizes 0000000180010ee0     QPSK_send_new_sfun_registry.obj
+ 0002:00000ee8       $unwind$mdlInitializeSampleTimes 0000000180010ee8     QPSK_send_new_sfun_registry.obj
+ 0002:00000ef0       $unwind$mdl_outputs_continuous_legacy 0000000180010ef0     QPSK_send_new_sfun_registry.obj
+ 0002:00000ef8       $unwind$mdl_outputs_processing 0000000180010ef8     QPSK_send_new_sfun_registry.obj
+ 0002:00000f00       $unwind$mdl_zeroCrossings_processing 0000000180010f00     QPSK_send_new_sfun_registry.obj
+ 0002:00000f08       $unwind$mdlZeroCrossings   0000000180010f08     QPSK_send_new_sfun_registry.obj
+ 0002:00000f10       $unwind$mdl_derivatives_processing 0000000180010f10     QPSK_send_new_sfun_registry.obj
+ 0002:00000f18       $unwind$mdlDerivatives     0000000180010f18     QPSK_send_new_sfun_registry.obj
+ 0002:00000f20       $unwind$mdl_initialize_conditions_processing 0000000180010f20     QPSK_send_new_sfun_registry.obj
+ 0002:00000f28       $unwind$mdlInitializeConditions 0000000180010f28     QPSK_send_new_sfun_registry.obj
+ 0002:00000f30       $unwind$mdl_ext_mode_exec_processing 0000000180010f30     QPSK_send_new_sfun_registry.obj
+ 0002:00000f38       $unwind$mdlExtModeExec     0000000180010f38     QPSK_send_new_sfun_registry.obj
+ 0002:00000f40       $unwind$mdlRTW             0000000180010f40     QPSK_send_new_sfun_registry.obj
+ 0002:00000f48       $unwind$mdl_enable_processing 0000000180010f48     QPSK_send_new_sfun_registry.obj
+ 0002:00000f50       $unwind$mdlEnable          0000000180010f50     QPSK_send_new_sfun_registry.obj
+ 0002:00000f58       $unwind$mdl_disable_processing 0000000180010f58     QPSK_send_new_sfun_registry.obj
+ 0002:00000f60       $unwind$mdlDisable         0000000180010f60     QPSK_send_new_sfun_registry.obj
+ 0002:00000f68       $unwind$mdlOutputs         0000000180010f68     QPSK_send_new_sfun_registry.obj
+ 0002:00000f70       $unwind$mdl_update_processing 0000000180010f70     QPSK_send_new_sfun_registry.obj
+ 0002:00000f78       $unwind$mdlUpdate          0000000180010f78     QPSK_send_new_sfun_registry.obj
+ 0002:00000f80       $unwind$ProcessMexSfunctionEveryCall 0000000180010f80     QPSK_send_new_sfun_registry.obj
+ 0002:00000f88       $unwind$_RegNumInputPortsCB 0000000180010f88     QPSK_send_new_sfun_registry.obj
+ 0002:00000f90       $unwind$_RegNumOutputPortsCB 0000000180010f90     QPSK_send_new_sfun_registry.obj
+ 0002:00000f98       $unwind$_CreateSimStruct   0000000180010f98     QPSK_send_new_sfun_registry.obj
+ 0002:00000fa0       $unwind$_ProcessMexSfunctionCmdLineCall 0000000180010fa0     QPSK_send_new_sfun_registry.obj
+ 0002:00000fb0       $unwind$ReportIndexOutOfBoundsError 0000000180010fb0     QPSK_send_new_sfun_registry.obj
+ 0002:00000fb8       $unwind$__report_securityfailure 0000000180010fb8     MSVCRT:gs_report.obj
+ 0002:00000fc0       $unwind$__report_securityfailureEx 0000000180010fc0     MSVCRT:gs_report.obj
+ 0002:00000fc8       $unwind$__report_rangecheckfailure 0000000180010fc8     MSVCRT:gs_report.obj
+ 0002:00000fd0       $unwind$__report_gsfailure 0000000180010fd0     MSVCRT:gs_report.obj
+ 0002:00000fd8       $unwind$capture_current_context 0000000180010fd8     MSVCRT:gs_report.obj
+ 0002:00000fe4       $unwind$capture_previous_context 0000000180010fe4     MSVCRT:gs_report.obj
+ 0002:00000ff0       $unwind$__raise_securityfailure 0000000180010ff0     MSVCRT:gs_report.obj
+ 0002:00000ff8       $unwind$__GSHandlerCheckCommon 0000000180010ff8     MSVCRT:gshandler.obj
+ 0002:00001000       $unwind$__GSHandlerCheck   0000000180011000     MSVCRT:gshandler.obj
+ 0002:00001008       $xdatasym                  0000000180011008     MSVCRT:amdsecgs.obj
+ 0002:0000100c       $unwind$?dllmain_crt_process_attach@@YAHQEAUHINSTANCE__@@QEAX@Z 000000018001100c     MSVCRT:dll_dllmain.obj
+ 0002:00001048       $unwind$?fin$0@?0??dllmain_crt_process_attach@@YAHQEAUHINSTANCE__@@QEAX@Z@4HA 0000000180011048     MSVCRT:dll_dllmain.obj
+ 0002:00001050       $unwind$?dllmain_crt_process_detach@@YAH_N@Z 0000000180011050     MSVCRT:dll_dllmain.obj
+ 0002:00001088       $unwind$?fin$0@?0??dllmain_crt_process_detach@@YAH_N@Z@4HA 0000000180011088     MSVCRT:dll_dllmain.obj
+ 0002:00001090       $unwind$?dllmain_crt_dispatch@@YAHQEAUHINSTANCE__@@KQEAX@Z 0000000180011090     MSVCRT:dll_dllmain.obj
+ 0002:00001098       $unwind$?dllmain_dispatch@@YAHQEAUHINSTANCE__@@KQEAX@Z 0000000180011098     MSVCRT:dll_dllmain.obj
+ 0002:000010c0       $unwind$?filt$0@?0??dllmain_dispatch@@YAHQEAUHINSTANCE__@@KQEAX@Z@4HA 00000001800110c0     MSVCRT:dll_dllmain.obj
+ 0002:000010c8       $unwind$_DllMainCRTStartup 00000001800110c8     MSVCRT:dll_dllmain.obj
+ 0002:000010d8       $unwind$__security_init_cookie 00000001800110d8     MSVCRT:gs_support.obj
+ 0002:000010e4       $unwind$__get_entropy      00000001800110e4     MSVCRT:gs_support.obj
+ 0002:000010ec       $unwind$DllMain            00000001800110ec     MSVCRT:dll_dllmain_stub.obj
+ 0002:000010f4       $unwind$__scrt_initialize_default_local_stdio_options 00000001800110f4     MSVCRT:default_local_stdio_options.obj
+ 0002:000010fc       $unwind$atexit             00000001800110fc     MSVCRT:utility.obj
+ 0002:00001104       $unwind$_onexit            0000000180011104     MSVCRT:utility.obj
+ 0002:0000110c       $unwind$__scrt_is_nonwritable_in_current_image 000000018001110c     MSVCRT:utility.obj
+ 0002:0000112c       $unwind$__scrt_is_nonwritable_in_current_image$filt$0 000000018001112c     MSVCRT:utility.obj
+ 0002:00001134       $unwind$__scrt_acquire_startup_lock 0000000180011134     MSVCRT:utility.obj
+ 0002:0000113c       $unwind$__scrt_release_startup_lock 000000018001113c     MSVCRT:utility.obj
+ 0002:00001144       $unwind$__scrt_initialize_crt 0000000180011144     MSVCRT:utility.obj
+ 0002:0000114c       $unwind$__scrt_uninitialize_crt 000000018001114c     MSVCRT:utility.obj
+ 0002:00001154       $unwind$__scrt_initialize_onexit_tables 0000000180011154     MSVCRT:utility.obj
+ 0002:0000115c       $unwind$__scrt_dllmain_exception_filter 000000018001115c     MSVCRT:utility.obj
+ 0002:00001170       $unwind$__scrt_dllmain_before_initialize_c 0000000180011170     MSVCRT:utility.obj
+ 0002:00001178       $unwind$__scrt_dllmain_after_initialize_c 0000000180011178     MSVCRT:utility.obj
+ 0002:00001180       $unwind$__scrt_dllmain_uninitialize_c 0000000180011180     MSVCRT:utility.obj
+ 0002:00001188       $unwind$__scrt_dllmain_uninitialize_critical 0000000180011188     MSVCRT:utility.obj
+ 0002:00001190       $unwind$__scrt_dllmain_crt_thread_attach 0000000180011190     MSVCRT:utility.obj
+ 0002:00001198       $unwind$__scrt_dllmain_crt_thread_detach 0000000180011198     MSVCRT:utility.obj
+ 0002:000011a0       $unwind$?configure_argv@__scrt_narrow_argv_policy@@SAHXZ 00000001800111a0     MSVCRT:utility.obj
+ 0002:000011a8       $unwind$__scrt_get_show_window_mode 00000001800111a8     MSVCRT:utility_desktop.obj
+ 0002:000011b0       $unwind$__scrt_is_managed_app 00000001800111b0     MSVCRT:utility_desktop.obj
+ 0002:000011b8       $unwind$__scrt_fastfail    00000001800111b8     MSVCRT:utility_desktop.obj
+ 0002:000011c8       $unwind$__scrt_unhandled_exception_filter 00000001800111c8     MSVCRT:utility_desktop.obj
+ 0002:000011d0       $unwind$_RTC_Initialize    00000001800111d0     MSVCRT:initsect.obj
+ 0002:000011dc       $unwind$_RTC_Terminate     00000001800111dc     MSVCRT:initsect.obj
+ 0002:000011e8       $unwind$__isa_available_init 00000001800111e8     MSVCRT:cpu_disp.obj
+ 0002:00001200       $xdatasym                  0000000180011200     MSVCRT:guard_dispatch.obj
+ 0002:00001210       .edata                     0000000180011210     QPSK_send_new_sfun.exp
+ 0002:00001238       rgpv                       0000000180011238     QPSK_send_new_sfun.exp
+ 0002:00001240       rgszName                   0000000180011240     QPSK_send_new_sfun.exp
+ 0002:00001248       rgwOrd                     0000000180011248     QPSK_send_new_sfun.exp
+ 0002:0000124c       szName                     000000018001124c     QPSK_send_new_sfun.exp
+ 0002:00001266       $N00001                    0000000180011266     QPSK_send_new_sfun.exp
+ 0002:00001272       $N00002                    0000000180011272     QPSK_send_new_sfun.exp
+ 0002:0000200c       .idata$6                   000000018001200c     sf_runtime:sf_runtime.dll
+ 0002:00002184       .idata$6                   0000000180012184     libmx:libmx.dll
+ 0002:00002206       .idata$6                   0000000180012206     libmex:libmex.dll
+ 0002:00002228       .idata$6                   0000000180012228     libut:libut.dll
+ 0002:000023be       .idata$6                   00000001800123be     kernel32:KERNEL32.dll
+ 0002:00002418       .idata$6                   0000000180012418     vcruntime:VCRUNTIME140.dll
+ 0002:0000255c       .idata$6                   000000018001255c     ucrt:api-ms-win-crt-string-l1-1-0.dll
+ 0002:0000257e       .idata$6                   000000018001257e     ucrt:api-ms-win-crt-stdio-l1-1-0.dll
+ 0002:0000259e       .idata$6                   000000018001259e     ucrt:api-ms-win-crt-heap-l1-1-0.dll
+ 0002:000025be       .idata$6                   00000001800125be     ucrt:api-ms-win-crt-runtime-l1-1-0.dll
+ 0003:00000000       $SG23679                   0000000180013000     QPSK_send_new_sfun.obj
+ 0003:00000018       $SG23684                   0000000180013018     QPSK_send_new_sfun.obj
+ 0003:00000020       $SG23687                   0000000180013020     QPSK_send_new_sfun.obj
+ 0003:00000028       $SG23692                   0000000180013028     QPSK_send_new_sfun.obj
+ 0003:00000030       $SG23720                   0000000180013030     QPSK_send_new_sfun.obj
+ 0003:00000050       $SG23723                   0000000180013050     QPSK_send_new_sfun.obj
+ 0003:00000068       $SG23754                   0000000180013068     QPSK_send_new_sfun.obj
+ 0003:00000088       $SG23757                   0000000180013088     QPSK_send_new_sfun.obj
+ 0003:000000a0       $SG23786                   00000001800130a0     QPSK_send_new_sfun.obj
+ 0003:000000c0       $SG23789                   00000001800130c0     QPSK_send_new_sfun.obj
+ 0003:000000d8       $SG23818                   00000001800130d8     QPSK_send_new_sfun.obj
+ 0003:000000f0       $SG23821                   00000001800130f0     QPSK_send_new_sfun.obj
+ 0003:00000108       $SG23850                   0000000180013108     QPSK_send_new_sfun.obj
+ 0003:00000128       $SG23853                   0000000180013128     QPSK_send_new_sfun.obj
+ 0003:00000140       $SG23859                   0000000180013140     QPSK_send_new_sfun.obj
+ 0003:00000148       $SG23860                   0000000180013148     QPSK_send_new_sfun.obj
+ 0003:00000158       $SG23885                   0000000180013158     QPSK_send_new_sfun.obj
+ 0003:00000168       $SG23886                   0000000180013168     QPSK_send_new_sfun.obj
+ 0003:00000180       $SG23618                   0000000180013180     c2_QPSK_send_new.obj
+ 0003:00000188       $SG23619                   0000000180013188     c2_QPSK_send_new.obj
+ 0003:00000190       $SG23620                   0000000180013190     c2_QPSK_send_new.obj
+ 0003:00000198       $SG23621                   0000000180013198     c2_QPSK_send_new.obj
+ 0003:000001a0       c2_debug_family_names      00000001800131a0     c2_QPSK_send_new.obj
+ 0003:000001c0       $SG23797                   00000001800131c0     c2_QPSK_send_new.obj
+ 0003:000001c4       $SG23798                   00000001800131c4     c2_QPSK_send_new.obj
+ 0003:000001c8       $SG23810                   00000001800131c8     c2_QPSK_send_new.obj
+ 0003:000001cc       $SG23886                   00000001800131cc     c2_QPSK_send_new.obj
+ 0003:000001d0       $SG23811                   00000001800131d0     c2_QPSK_send_new.obj
+ 0003:000001ec       $SG23954                   00000001800131ec     c2_QPSK_send_new.obj
+ 0003:000001f0       $SG23970                   00000001800131f0     c2_QPSK_send_new.obj
+ 0003:000001f4       $SG24122                   00000001800131f4     c2_QPSK_send_new.obj
+ 0003:000001fc       $SG24198                   00000001800131fc     c2_QPSK_send_new.obj
+ 0003:00000200       $SG24004                   0000000180013200     c2_QPSK_send_new.obj
+ 0003:00000210       $SG24120                   0000000180013210     c2_QPSK_send_new.obj
+ 0003:0000021c       $SG24128                   000000018001321c     c2_QPSK_send_new.obj
+ 0003:00000224       $SG24262                   0000000180013224     c2_QPSK_send_new.obj
+ 0003:00000228       $SG24124                   0000000180013228     c2_QPSK_send_new.obj
+ 0003:00000238       $SG24126                   0000000180013238     c2_QPSK_send_new.obj
+ 0003:00000240       $SG24130                   0000000180013240     c2_QPSK_send_new.obj
+ 0003:00000250       $SG24131                   0000000180013250     c2_QPSK_send_new.obj
+ 0003:00000268       $SG24132                   0000000180013268     c2_QPSK_send_new.obj
+ 0003:00000274       $SG24134                   0000000180013274     c2_QPSK_send_new.obj
+ 0003:0000027c       $SG24136                   000000018001327c     c2_QPSK_send_new.obj
+ 0003:00000288       $SG24138                   0000000180013288     c2_QPSK_send_new.obj
+ 0003:00000294       $SG24139                   0000000180013294     c2_QPSK_send_new.obj
+ 0003:0000029c       $SG24141                   000000018001329c     c2_QPSK_send_new.obj
+ 0003:000002a4       $SG24143                   00000001800132a4     c2_QPSK_send_new.obj
+ 0003:000002b0       $SG24145                   00000001800132b0     c2_QPSK_send_new.obj
+ 0003:000002c4       $SG24146                   00000001800132c4     c2_QPSK_send_new.obj
+ 0003:000002cc       $SG24147                   00000001800132cc     c2_QPSK_send_new.obj
+ 0003:000002d8       $SG24148                   00000001800132d8     c2_QPSK_send_new.obj
+ 0003:000002ec       $SG24149                   00000001800132ec     c2_QPSK_send_new.obj
+ 0003:000002f8       $SG24150                   00000001800132f8     c2_QPSK_send_new.obj
+ 0003:00000304       $SG24151                   0000000180013304     c2_QPSK_send_new.obj
+ 0003:00000310       $SG24152                   0000000180013310     c2_QPSK_send_new.obj
+ 0003:0000031c       $SG24154                   000000018001331c     c2_QPSK_send_new.obj
+ 0003:00000324       $SG24156                   0000000180013324     c2_QPSK_send_new.obj
+ 0003:00000330       $SG24158                   0000000180013330     c2_QPSK_send_new.obj
+ 0003:0000033c       $SG24159                   000000018001333c     c2_QPSK_send_new.obj
+ 0003:00000344       $SG24161                   0000000180013344     c2_QPSK_send_new.obj
+ 0003:0000034c       $SG24163                   000000018001334c     c2_QPSK_send_new.obj
+ 0003:00000358       $SG24165                   0000000180013358     c2_QPSK_send_new.obj
+ 0003:0000036c       $SG24166                   000000018001336c     c2_QPSK_send_new.obj
+ 0003:00000374       $SG24167                   0000000180013374     c2_QPSK_send_new.obj
+ 0003:00000380       $SG24168                   0000000180013380     c2_QPSK_send_new.obj
+ 0003:00000394       $SG24169                   0000000180013394     c2_QPSK_send_new.obj
+ 0003:000003a0       $SG24170                   00000001800133a0     c2_QPSK_send_new.obj
+ 0003:000003b0       $SG24171                   00000001800133b0     c2_QPSK_send_new.obj
+ 0003:000003b8       $SG24172                   00000001800133b8     c2_QPSK_send_new.obj
+ 0003:000003c0       $SG24173                   00000001800133c0     c2_QPSK_send_new.obj
+ 0003:000003d0       $SG24189                   00000001800133d0     c2_QPSK_send_new.obj
+ 0003:000003e0       $SG24191                   00000001800133e0     c2_QPSK_send_new.obj
+ 0003:000003f0       $SG24193                   00000001800133f0     c2_QPSK_send_new.obj
+ 0003:00000408       $SG24195                   0000000180013408     c2_QPSK_send_new.obj
+ 0003:00000420       $SG24197                   0000000180013420     c2_QPSK_send_new.obj
+ 0003:00000438       $SG24199                   0000000180013438     c2_QPSK_send_new.obj
+ 0003:00000448       $SG24200                   0000000180013448     c2_QPSK_send_new.obj
+ 0003:00000450       $SG24216                   0000000180013450     c2_QPSK_send_new.obj
+ 0003:00000478       $SG24218                   0000000180013478     c2_QPSK_send_new.obj
+ 0003:00000498       $SG24220                   0000000180013498     c2_QPSK_send_new.obj
+ 0003:000004c0       $SG24221                   00000001800134c0     c2_QPSK_send_new.obj
+ 0003:000004e0       $SG24231                   00000001800134e0     c2_QPSK_send_new.obj
+ 0003:000004f0       $SG24233                   00000001800134f0     c2_QPSK_send_new.obj
+ 0003:000004f8       $SG24261                   00000001800134f8     c2_QPSK_send_new.obj
+ 0003:00000500       $SG24235                   0000000180013500     c2_QPSK_send_new.obj
+ 0003:00000568       $SG24263                   0000000180013568     c2_QPSK_send_new.obj
+ 0003:00000578       $SG24280                   0000000180013578     c2_QPSK_send_new.obj
+ 0003:00000590       $SG24387                   0000000180013590     c2_QPSK_send_new.obj
+ 0003:000005b8       $SG24395                   00000001800135b8     c2_QPSK_send_new.obj
+ 0003:000005c8       $SG24396                   00000001800135c8     c2_QPSK_send_new.obj
+ 0003:000005e0       $SG24417                   00000001800135e0     c2_QPSK_send_new.obj
+ 0003:00000610       $SG24432                   0000000180013610     c2_QPSK_send_new.obj
+ 0003:00000688       $SG23633                   0000000180013688     QPSK_send_new_sfun_registry.obj
+ 0003:000006a8       $SG23635                   00000001800136a8     QPSK_send_new_sfun_registry.obj
+ 0003:000006b8       $SG23671                   00000001800136b8     QPSK_send_new_sfun_registry.obj
+ 0003:000006d4       $SG23963                   00000001800136d4     QPSK_send_new_sfun_registry.obj
+ 0003:000006dc       $SG25593                   00000001800136dc     QPSK_send_new_sfun_registry.obj
+ 0003:000006e0       $SG23673                   00000001800136e0     QPSK_send_new_sfun_registry.obj
+ 0003:000006f0       $SG23709                   00000001800136f0     QPSK_send_new_sfun_registry.obj
+ 0003:00000708       $SG23711                   0000000180013708     QPSK_send_new_sfun_registry.obj
+ 0003:00000718       $SG23747                   0000000180013718     QPSK_send_new_sfun_registry.obj
+ 0003:00000738       $SG23749                   0000000180013738     QPSK_send_new_sfun_registry.obj
+ 0003:00000748       $SG23785                   0000000180013748     QPSK_send_new_sfun_registry.obj
+ 0003:00000768       $SG23787                   0000000180013768     QPSK_send_new_sfun_registry.obj
+ 0003:00000778       $SG23807                   0000000180013778     QPSK_send_new_sfun_registry.obj
+ 0003:00000788       $SG23847                   0000000180013788     QPSK_send_new_sfun_registry.obj
+ 0003:000007a0       $SG23878                   00000001800137a0     QPSK_send_new_sfun_registry.obj
+ 0003:000007b0       $SG23964                   00000001800137b0     QPSK_send_new_sfun_registry.obj
+ 0003:000007c4       $SG23969                   00000001800137c4     QPSK_send_new_sfun_registry.obj
+ 0003:000007cc       $SG25671                   00000001800137cc     QPSK_send_new_sfun_registry.obj
+ 0003:000007d0       $SG23970                   00000001800137d0     QPSK_send_new_sfun_registry.obj
+ 0003:000007ec       $SG24654                   00000001800137ec     QPSK_send_new_sfun_registry.obj
+ 0003:000007f4       $SG26057                   00000001800137f4     QPSK_send_new_sfun_registry.obj
+ 0003:00000800       $SG24111                   0000000180013800     QPSK_send_new_sfun_registry.obj
+ 0003:00000828       _sfcnName                  0000000180013828     QPSK_send_new_sfun_registry.obj
+ 0003:00000848       $SG24447                   0000000180013848     QPSK_send_new_sfun_registry.obj
+ 0003:00000850       $SG24128                   0000000180013850     QPSK_send_new_sfun_registry.obj
+ 0003:000008c8       $SG24448                   00000001800138c8     QPSK_send_new_sfun_registry.obj
+ 0003:000008d0       $SG24462                   00000001800138d0     QPSK_send_new_sfun_registry.obj
+ 0003:000008e0       $SG24652                   00000001800138e0     QPSK_send_new_sfun_registry.obj
+ 0003:00000920       $SG24653                   0000000180013920     QPSK_send_new_sfun_registry.obj
+ 0003:00000928       $SG24659                   0000000180013928     QPSK_send_new_sfun_registry.obj
+ 0003:00000930       $SG24658                   0000000180013930     QPSK_send_new_sfun_registry.obj
+ 0003:00000978       $SG24660                   0000000180013978     QPSK_send_new_sfun_registry.obj
+ 0003:00000980       $SG24661                   0000000180013980     QPSK_send_new_sfun_registry.obj
+ 0003:000009d8       $SG24662                   00000001800139d8     QPSK_send_new_sfun_registry.obj
+ 0003:000009e0       $SG24663                   00000001800139e0     QPSK_send_new_sfun_registry.obj
+ 0003:000009e8       $SG24685                   00000001800139e8     QPSK_send_new_sfun_registry.obj
+ 0003:00000a28       $SG24686                   0000000180013a28     QPSK_send_new_sfun_registry.obj
+ 0003:00000a30       $SG24687                   0000000180013a30     QPSK_send_new_sfun_registry.obj
+ 0003:00000a38       $SG24692                   0000000180013a38     QPSK_send_new_sfun_registry.obj
+ 0003:00000a40       $SG24691                   0000000180013a40     QPSK_send_new_sfun_registry.obj
+ 0003:00000a88       $SG24693                   0000000180013a88     QPSK_send_new_sfun_registry.obj
+ 0003:00000a90       $SG24694                   0000000180013a90     QPSK_send_new_sfun_registry.obj
+ 0003:00000ae8       $SG24695                   0000000180013ae8     QPSK_send_new_sfun_registry.obj
+ 0003:00000af0       $SG24696                   0000000180013af0     QPSK_send_new_sfun_registry.obj
+ 0003:00000af8       $SG24712                   0000000180013af8     QPSK_send_new_sfun_registry.obj
+ 0003:00000b00       $SG24711                   0000000180013b00     QPSK_send_new_sfun_registry.obj
+ 0003:00000b50       $SG24713                   0000000180013b50     QPSK_send_new_sfun_registry.obj
+ 0003:00000b58       $SG24726                   0000000180013b58     QPSK_send_new_sfun_registry.obj
+ 0003:00000b60       $SG24725                   0000000180013b60     QPSK_send_new_sfun_registry.obj
+ 0003:00000bc0       $SG24727                   0000000180013bc0     QPSK_send_new_sfun_registry.obj
+ 0003:00000bc8       $SG24740                   0000000180013bc8     QPSK_send_new_sfun_registry.obj
+ 0003:00000bd0       $SG24739                   0000000180013bd0     QPSK_send_new_sfun_registry.obj
+ 0003:00000c30       $SG24741                   0000000180013c30     QPSK_send_new_sfun_registry.obj
+ 0003:00000c38       $SG25578                   0000000180013c38     QPSK_send_new_sfun_registry.obj
+ 0003:00000c50       $SG24956                   0000000180013c50     QPSK_send_new_sfun_registry.obj
+ 0003:00000cc8       $SG25645                   0000000180013cc8     QPSK_send_new_sfun_registry.obj
+ 0003:00000cd0       $SG24959                   0000000180013cd0     QPSK_send_new_sfun_registry.obj
+ 0003:00000d44       $SG25646                   0000000180013d44     QPSK_send_new_sfun_registry.obj
+ 0003:00000d50       $SG24964                   0000000180013d50     QPSK_send_new_sfun_registry.obj
+ 0003:00000dc8       $SG25647                   0000000180013dc8     QPSK_send_new_sfun_registry.obj
+ 0003:00000dd0       $SG24972                   0000000180013dd0     QPSK_send_new_sfun_registry.obj
+ 0003:00000e40       $SG25247                   0000000180013e40     QPSK_send_new_sfun_registry.obj
+ 0003:00000eb8       $SG25653                   0000000180013eb8     QPSK_send_new_sfun_registry.obj
+ 0003:00000ec0       $SG25252                   0000000180013ec0     QPSK_send_new_sfun_registry.obj
+ 0003:00000f38       $SG25656                   0000000180013f38     QPSK_send_new_sfun_registry.obj
+ 0003:00000f40       $SG25590                   0000000180013f40     QPSK_send_new_sfun_registry.obj
+ 0003:00000fb8       $SG25659                   0000000180013fb8     QPSK_send_new_sfun_registry.obj
+ 0003:00000fc0       $SG25648                   0000000180013fc0     QPSK_send_new_sfun_registry.obj
+ 0003:00001038       $SG25665                   0000000180014038     QPSK_send_new_sfun_registry.obj
+ 0003:00001040       $SG25650                   0000000180014040     QPSK_send_new_sfun_registry.obj
+ 0003:000010c0       $SG25660                   00000001800140c0     QPSK_send_new_sfun_registry.obj
+ 0003:00001140       $SG25661                   0000000180014140     QPSK_send_new_sfun_registry.obj
+ 0003:00001150       $SG25663                   0000000180014150     QPSK_send_new_sfun_registry.obj
+ 0003:0000115c       $SG25667                   000000018001415c     QPSK_send_new_sfun_registry.obj
+ 0003:00001168       $SG25669                   0000000180014168     QPSK_send_new_sfun_registry.obj
+ 0003:00001178       $SG25779                   0000000180014178     QPSK_send_new_sfun_registry.obj
+ 0003:000011a8       $SG25780                   00000001800141a8     QPSK_send_new_sfun_registry.obj
+ 0003:000011b0       $SG25674                   00000001800141b0     QPSK_send_new_sfun_registry.obj
+ 0003:0000125c       $SG25781                   000000018001425c     QPSK_send_new_sfun_registry.obj
+ 0003:00001268       $SG25783                   0000000180014268     QPSK_send_new_sfun_registry.obj
+ 0003:000012a0       $SG25784                   00000001800142a0     QPSK_send_new_sfun_registry.obj
+ 0003:000012a8       $SG25785                   00000001800142a8     QPSK_send_new_sfun_registry.obj
+ 0003:000012b0       $SG25788                   00000001800142b0     QPSK_send_new_sfun_registry.obj
+ 0003:000012e8       $SG25789                   00000001800142e8     QPSK_send_new_sfun_registry.obj
+ 0003:000012f0       $SG25790                   00000001800142f0     QPSK_send_new_sfun_registry.obj
+ 0003:000012f8       $SG25792                   00000001800142f8     QPSK_send_new_sfun_registry.obj
+ 0003:00001330       $SG25793                   0000000180014330     QPSK_send_new_sfun_registry.obj
+ 0003:00001338       $SG25794                   0000000180014338     QPSK_send_new_sfun_registry.obj
+ 0003:00001340       $SG25796                   0000000180014340     QPSK_send_new_sfun_registry.obj
+ 0003:00001378       $SG25797                   0000000180014378     QPSK_send_new_sfun_registry.obj
+ 0003:00001380       $SG25798                   0000000180014380     QPSK_send_new_sfun_registry.obj
+ 0003:00001388       $SG25801                   0000000180014388     QPSK_send_new_sfun_registry.obj
+ 0003:00001390       $SG25803                   0000000180014390     QPSK_send_new_sfun_registry.obj
+ 0003:000013a8       $SG25804                   00000001800143a8     QPSK_send_new_sfun_registry.obj
+ 0003:000013e0       $SG25805                   00000001800143e0     QPSK_send_new_sfun_registry.obj
+ 0003:000013e8       $SG25806                   00000001800143e8     QPSK_send_new_sfun_registry.obj
+ 0003:000013f0       $SG25966                   00000001800143f0     QPSK_send_new_sfun_registry.obj
+ 0003:00001410       $SG25967                   0000000180014410     QPSK_send_new_sfun_registry.obj
+ 0003:00001490       $SG25971                   0000000180014490     QPSK_send_new_sfun_registry.obj
+ 0003:000014a8       $SG25976                   00000001800144a8     QPSK_send_new_sfun_registry.obj
+ 0003:000014c0       $SG25972                   00000001800144c0     QPSK_send_new_sfun_registry.obj
+ 0003:00001540       $SG25977                   0000000180014540     QPSK_send_new_sfun_registry.obj
+ 0003:000015c0       $SG25981                   00000001800145c0     QPSK_send_new_sfun_registry.obj
+ 0003:000015e0       $SG25982                   00000001800145e0     QPSK_send_new_sfun_registry.obj
+ 0003:00001660       $SG25986                   0000000180014660     QPSK_send_new_sfun_registry.obj
+ 0003:00001680       $SG25987                   0000000180014680     QPSK_send_new_sfun_registry.obj
+ 0003:00001700       $SG25991                   0000000180014700     QPSK_send_new_sfun_registry.obj
+ 0003:00001720       $SG25992                   0000000180014720     QPSK_send_new_sfun_registry.obj
+ 0003:000017a0       $SG25996                   00000001800147a0     QPSK_send_new_sfun_registry.obj
+ 0003:000017c8       $SG26001                   00000001800147c8     QPSK_send_new_sfun_registry.obj
+ 0003:000017f0       $SG25997                   00000001800147f0     QPSK_send_new_sfun_registry.obj
+ 0003:00001870       $SG26002                   0000000180014870     QPSK_send_new_sfun_registry.obj
+ 0003:000018f0       $SG26006                   00000001800148f0     QPSK_send_new_sfun_registry.obj
+ 0003:00001910       $SG26007                   0000000180014910     QPSK_send_new_sfun_registry.obj
+ 0003:00001990       $SG26011                   0000000180014990     QPSK_send_new_sfun_registry.obj
+ 0003:000019b0       $SG26012                   00000001800149b0     QPSK_send_new_sfun_registry.obj
+ 0003:00001a30       $SG26016                   0000000180014a30     QPSK_send_new_sfun_registry.obj
+ 0003:00001a48       $SG26052                   0000000180014a48     QPSK_send_new_sfun_registry.obj
+ 0003:00001a60       $SG26017                   0000000180014a60     QPSK_send_new_sfun_registry.obj
+ 0003:00001ae0       $SG26021                   0000000180014ae0     QPSK_send_new_sfun_registry.obj
+ 0003:00001b00       $SG26022                   0000000180014b00     QPSK_send_new_sfun_registry.obj
+ 0003:00001b80       $SG26026                   0000000180014b80     QPSK_send_new_sfun_registry.obj
+ 0003:00001ba0       $SG26027                   0000000180014ba0     QPSK_send_new_sfun_registry.obj
+ 0003:00001c20       $SG26031                   0000000180014c20     QPSK_send_new_sfun_registry.obj
+ 0003:00001c40       $SG26032                   0000000180014c40     QPSK_send_new_sfun_registry.obj
+ 0003:00001cc0       $SG26036                   0000000180014cc0     QPSK_send_new_sfun_registry.obj
+ 0003:00001ce0       $SG26037                   0000000180014ce0     QPSK_send_new_sfun_registry.obj
+ 0003:00001d60       $SG26041                   0000000180014d60     QPSK_send_new_sfun_registry.obj
+ 0003:00001d80       $SG26042                   0000000180014d80     QPSK_send_new_sfun_registry.obj
+ 0003:00001e00       $SG26046                   0000000180014e00     QPSK_send_new_sfun_registry.obj
+ 0003:00001e20       $SG26047                   0000000180014e20     QPSK_send_new_sfun_registry.obj
+ 0003:00001ea0       $SG26053                   0000000180014ea0     QPSK_send_new_sfun_registry.obj
+ 0003:00001f20       $SG26058                   0000000180014f20     QPSK_send_new_sfun_registry.obj
+ 0003:00001fa0       $SG26062                   0000000180014fa0     QPSK_send_new_sfun_registry.obj
+ 0003:00001fb8       $SG26082                   0000000180014fb8     QPSK_send_new_sfun_registry.obj
+ 0003:00001fd0       $SG26063                   0000000180014fd0     QPSK_send_new_sfun_registry.obj
+ 0003:00002050       $SG26067                   0000000180015050     QPSK_send_new_sfun_registry.obj
+ 0003:00002060       $SG26068                   0000000180015060     QPSK_send_new_sfun_registry.obj
+ 0003:000020e0       $SG26072                   00000001800150e0     QPSK_send_new_sfun_registry.obj
+ 0003:000020f0       $SG26073                   00000001800150f0     QPSK_send_new_sfun_registry.obj
+ 0003:00002170       $SG26077                   0000000180015170     QPSK_send_new_sfun_registry.obj
+ 0003:00002180       $SG26078                   0000000180015180     QPSK_send_new_sfun_registry.obj
+ 0003:00002200       $SG26083                   0000000180015200     QPSK_send_new_sfun_registry.obj
+ 0003:00002280       $SG26087                   0000000180015280     QPSK_send_new_sfun_registry.obj
+ 0003:00002298       $SG26092                   0000000180015298     QPSK_send_new_sfun_registry.obj
+ 0003:000022a8       $SG26159                   00000001800152a8     QPSK_send_new_sfun_registry.obj
+ 0003:000022c0       $SG26088                   00000001800152c0     QPSK_send_new_sfun_registry.obj
+ 0003:00002340       $SG26093                   0000000180015340     QPSK_send_new_sfun_registry.obj
+ 0003:000023c0       $SG26101                   00000001800153c0     QPSK_send_new_sfun_registry.obj
+ 0003:000023d0       $SG26102                   00000001800153d0     QPSK_send_new_sfun_registry.obj
+ 0003:00002450       $SG26106                   0000000180015450     QPSK_send_new_sfun_registry.obj
+ 0003:00002460       $SG26107                   0000000180015460     QPSK_send_new_sfun_registry.obj
+ 0003:000024e0       $SG26111                   00000001800154e0     QPSK_send_new_sfun_registry.obj
+ 0003:000024f0       $SG26112                   00000001800154f0     QPSK_send_new_sfun_registry.obj
+ 0003:00002570       $SG26117                   0000000180015570     QPSK_send_new_sfun_registry.obj
+ 0003:00002580       $SG26118                   0000000180015580     QPSK_send_new_sfun_registry.obj
+ 0003:00002600       $SG26122                   0000000180015600     QPSK_send_new_sfun_registry.obj
+ 0003:00002680       $SG26147                   0000000180015680     QPSK_send_new_sfun_registry.obj
+ 0003:000026f8       $SG26169                   00000001800156f8     QPSK_send_new_sfun_registry.obj
+ 0003:00002708       $SG26181                   0000000180015708     QPSK_send_new_sfun_registry.obj
+ 0003:00002718       $SG26191                   0000000180015718     QPSK_send_new_sfun_registry.obj
+ 0003:00002728       $SG26203                   0000000180015728     QPSK_send_new_sfun_registry.obj
+ 0003:00002738       $SG26213                   0000000180015738     QPSK_send_new_sfun_registry.obj
+ 0003:00002790       sRtwOptimizationInfoStruct 0000000180015790     QPSK_send_new_sfun.obj
+ 0003:00002798       sOptimizationInfoFlags     0000000180015798     QPSK_send_new_sfun.obj
+ 0003:000027a0       _sfTime_                   00000001800157a0     c2_QPSK_send_new.obj
+ 0003:000027a8       $SG24201                   00000001800157a8     c2_QPSK_send_new.obj
+ 0003:000027a9       $SG24202                   00000001800157a9     c2_QPSK_send_new.obj
+ 0003:000027aa       $SG24219                   00000001800157aa     c2_QPSK_send_new.obj
+ 0003:000027b8       sfGlobalMdlStartCallCounts 00000001800157b8     QPSK_send_new_sfun_registry.obj
+ 0003:000027bc       $SG25641                   00000001800157bc     QPSK_send_new_sfun_registry.obj
+ 0003:000027c0       ?msg@?3??ReportIndexOutOfBoundsError@@9@9 00000001800157c0     QPSK_send_new_sfun_registry.obj
+ 0003:000037c0       GS_ExceptionRecord         00000001800167c0     MSVCRT:gs_report.obj
+ 0003:00003860       GS_ContextRecord           0000000180016860     MSVCRT:gs_report.obj
+ 0003:00003d30       ?__proc_attached@@3HA      0000000180016d30     MSVCRT:dll_dllmain.obj
+ 0003:00003d70       ?is_initialized_as_dll@@3_NA 0000000180016d70     MSVCRT:utility.obj
+ 0003:00003d71       ?module_local_atexit_table_initialized@@3_NA 0000000180016d71     MSVCRT:utility.obj
+ 0003:00003d78       ?module_local_atexit_table@@3U_onexit_table_t@@A 0000000180016d78     MSVCRT:utility.obj
+ 0003:00003d90       ?module_local_at_quick_exit_table@@3U_onexit_table_t@@A 0000000180016d90     MSVCRT:utility.obj
+ 0004:00000000       $pdata$load_QPSK_send_new_optimization_info 0000000180017000     QPSK_send_new_sfun.obj
+ 0004:0000000c       $pdata$unload_QPSK_send_new_optimization_info 000000018001700c     QPSK_send_new_sfun.obj
+ 0004:00000018       $pdata$sf_QPSK_send_new_method_dispatcher 0000000180017018     QPSK_send_new_sfun.obj
+ 0004:00000024       $pdata$sf_QPSK_send_new_process_check_sum_call 0000000180017024     QPSK_send_new_sfun.obj
+ 0004:00000030       $pdata$sf_QPSK_send_new_autoinheritance_info 0000000180017030     QPSK_send_new_sfun.obj
+ 0004:0000003c       $pdata$sf_QPSK_send_new_get_eml_resolved_functions_info 000000018001703c     QPSK_send_new_sfun.obj
+ 0004:00000048       $pdata$sf_QPSK_send_new_third_party_uses_info 0000000180017048     QPSK_send_new_sfun.obj
+ 0004:00000054       $pdata$sf_QPSK_send_new_jit_fallback_info 0000000180017054     QPSK_send_new_sfun.obj
+ 0004:00000060       $pdata$sf_QPSK_send_new_updateBuildInfo_args_info 0000000180017060     QPSK_send_new_sfun.obj
+ 0004:0000006c       $pdata$QPSK_send_new_debug_initialize 000000018001706c     QPSK_send_new_sfun.obj
+ 0004:00000078       $pdata$sf_c2_QPSK_send_new_get_eml_resolved_functions_info 0000000180017078     c2_QPSK_send_new.obj
+ 0004:00000084       $pdata$sf_c2_QPSK_send_new_get_check_sum 0000000180017084     c2_QPSK_send_new.obj
+ 0004:00000090       $pdata$c2_QPSK_send_new_method_dispatcher 0000000180017090     c2_QPSK_send_new.obj
+ 0004:0000009c       $pdata$chart_debug_initialization 000000018001709c     c2_QPSK_send_new.obj
+ 0004:000000a8       $pdata$chart_debug_initialize_data_addresses 00000001800170a8     c2_QPSK_send_new.obj
+ 0004:000000b4       $pdata$initialize_c2_QPSK_send_new 00000001800170b4     c2_QPSK_send_new.obj
+ 0004:000000c0       $pdata$enable_c2_QPSK_send_new 00000001800170c0     c2_QPSK_send_new.obj
+ 0004:000000cc       $pdata$disable_c2_QPSK_send_new 00000001800170cc     c2_QPSK_send_new.obj
+ 0004:000000d8       $pdata$get_sim_state_c2_QPSK_send_new 00000001800170d8     c2_QPSK_send_new.obj
+ 0004:000000e4       $pdata$set_sim_state_c2_QPSK_send_new 00000001800170e4     c2_QPSK_send_new.obj
+ 0004:000000f0       $pdata$sf_gateway_c2_QPSK_send_new 00000001800170f0     c2_QPSK_send_new.obj
+ 0004:000000fc       $pdata$mdl_start_c2_QPSK_send_new 00000001800170fc     c2_QPSK_send_new.obj
+ 0004:00000108       $pdata$c2_sf_marshallOut   0000000180017108     c2_QPSK_send_new.obj
+ 0004:00000114       $pdata$c2_emlrt_marshallIn 0000000180017114     c2_QPSK_send_new.obj
+ 0004:00000120       $pdata$c2_b_emlrt_marshallIn 0000000180017120     c2_QPSK_send_new.obj
+ 0004:0000012c       $pdata$c2_sf_marshallIn    000000018001712c     c2_QPSK_send_new.obj
+ 0004:00000138       $pdata$c2_b_sf_marshallOut 0000000180017138     c2_QPSK_send_new.obj
+ 0004:00000144       $pdata$c2_c_sf_marshallOut 0000000180017144     c2_QPSK_send_new.obj
+ 0004:00000150       $pdata$c2_c_emlrt_marshallIn 0000000180017150     c2_QPSK_send_new.obj
+ 0004:0000015c       $pdata$c2_b_sf_marshallIn  000000018001715c     c2_QPSK_send_new.obj
+ 0004:00000168       $pdata$c2_e_emlrt_marshallIn 0000000180017168     c2_QPSK_send_new.obj
+ 0004:00000174       $pdata$c2_f_emlrt_marshallIn 0000000180017174     c2_QPSK_send_new.obj
+ 0004:00000180       $pdata$init_simulink_io_address 0000000180017180     c2_QPSK_send_new.obj
+ 0004:0000018c       $pdata$sf_c2_QPSK_send_new_get_post_codegen_info 000000018001718c     c2_QPSK_send_new.obj
+ 0004:00000198       $pdata$sf_c2_QPSK_send_new_get_autoinheritance_info 0000000180017198     c2_QPSK_send_new.obj
+ 0004:000001a4       $pdata$sf_c2_QPSK_send_new_third_party_uses_info 00000001800171a4     c2_QPSK_send_new.obj
+ 0004:000001b0       $pdata$sf_c2_QPSK_send_new_jit_fallback_info 00000001800171b0     c2_QPSK_send_new.obj
+ 0004:000001bc       $pdata$sf_c2_QPSK_send_new_updateBuildInfo_args_info 00000001800171bc     c2_QPSK_send_new.obj
+ 0004:000001c8       $pdata$sf_get_sim_state_info_c2_QPSK_send_new 00000001800171c8     c2_QPSK_send_new.obj
+ 0004:000001d4       $pdata$sf_opaque_initialize_c2_QPSK_send_new 00000001800171d4     c2_QPSK_send_new.obj
+ 0004:000001e0       $pdata$sf_opaque_enable_c2_QPSK_send_new 00000001800171e0     c2_QPSK_send_new.obj
+ 0004:000001ec       $pdata$sf_opaque_disable_c2_QPSK_send_new 00000001800171ec     c2_QPSK_send_new.obj
+ 0004:000001f8       $pdata$sf_opaque_gateway_c2_QPSK_send_new 00000001800171f8     c2_QPSK_send_new.obj
+ 0004:00000204       $pdata$sf_opaque_get_sim_state_c2_QPSK_send_new 0000000180017204     c2_QPSK_send_new.obj
+ 0004:00000210       $pdata$sf_opaque_set_sim_state_c2_QPSK_send_new 0000000180017210     c2_QPSK_send_new.obj
+ 0004:0000021c       $pdata$sf_opaque_terminate_c2_QPSK_send_new 000000018001721c     c2_QPSK_send_new.obj
+ 0004:00000228       $pdata$mdlProcessParameters_c2_QPSK_send_new 0000000180017228     c2_QPSK_send_new.obj
+ 0004:00000234       $pdata$mdlSetWorkWidths_c2_QPSK_send_new 0000000180017234     c2_QPSK_send_new.obj
+ 0004:00000240       $pdata$mdlRTW_c2_QPSK_send_new 0000000180017240     c2_QPSK_send_new.obj
+ 0004:0000024c       $pdata$mdlStart_c2_QPSK_send_new 000000018001724c     c2_QPSK_send_new.obj
+ 0004:00000258       $pdata$mexFunction         0000000180017258     QPSK_send_new_sfun_registry.obj
+ 0004:00000264       $pdata$_ssSetInputPortDirectFeedThroughFcn 0000000180017264     QPSK_send_new_sfun_registry.obj
+ 0004:00000270       $pdata$_ssGetInputPortSignalPtrsFcn 0000000180017270     QPSK_send_new_sfun_registry.obj
+ 0004:0000027c       $pdata$_ssGetInputPortSignalFcn 000000018001727c     QPSK_send_new_sfun_registry.obj
+ 0004:00000288       $pdata$_ssSetInputPortReusableFcn 0000000180017288     QPSK_send_new_sfun_registry.obj
+ 0004:00000294       $pdata$_ssSetOutputPortReusableFcn 0000000180017294     QPSK_send_new_sfun_registry.obj
+ 0004:000002a0       $pdata$_ssSetSymbolicDimsSupport 00000001800172a0     QPSK_send_new_sfun_registry.obj
+ 0004:000002ac       $pdata$_ssRegisterSymbolicDimsExpr 00000001800172ac     QPSK_send_new_sfun_registry.obj
+ 0004:000002b8       $pdata$_ssRegisterSymbolicDims 00000001800172b8     QPSK_send_new_sfun_registry.obj
+ 0004:000002c4       $pdata$_ssRegisterSymbolicDimsString 00000001800172c4     QPSK_send_new_sfun_registry.obj
+ 0004:000002d0       $pdata$_ssRegisterSymbolicDimsIntValue 00000001800172d0     QPSK_send_new_sfun_registry.obj
+ 0004:000002dc       $pdata$_ssRegisterSymbolicDimsPlus 00000001800172dc     QPSK_send_new_sfun_registry.obj
+ 0004:000002e8       $pdata$_ssRegisterSymbolicDimsMinus 00000001800172e8     QPSK_send_new_sfun_registry.obj
+ 0004:000002f4       $pdata$_ssRegisterSymbolicDimsMultiply 00000001800172f4     QPSK_send_new_sfun_registry.obj
+ 0004:00000300       $pdata$_ssRegisterSymbolicDimsDivide 0000000180017300     QPSK_send_new_sfun_registry.obj
+ 0004:0000030c       $pdata$_ssGetNumSymbolicDims 000000018001730c     QPSK_send_new_sfun_registry.obj
+ 0004:00000318       $pdata$_ssGetSymbolicDim   0000000180017318     QPSK_send_new_sfun_registry.obj
+ 0004:00000324       $pdata$_ssSetInputPortSymbolicDimsId 0000000180017324     QPSK_send_new_sfun_registry.obj
+ 0004:00000330       $pdata$_ssGetCompInputPortSymbolicDimsId 0000000180017330     QPSK_send_new_sfun_registry.obj
+ 0004:0000033c       $pdata$_ssSetCompInputPortSymbolicDimsId 000000018001733c     QPSK_send_new_sfun_registry.obj
+ 0004:00000348       $pdata$_ssSetOutputPortSymbolicDimsId 0000000180017348     QPSK_send_new_sfun_registry.obj
+ 0004:00000354       $pdata$_ssGetCompOutputPortSymbolicDimsId 0000000180017354     QPSK_send_new_sfun_registry.obj
+ 0004:00000360       $pdata$_ssSetCompOutputPortSymbolicDimsId 0000000180017360     QPSK_send_new_sfun_registry.obj
+ 0004:0000036c       $pdata$_ssSetCompDWorkSymbolicDimsId 000000018001736c     QPSK_send_new_sfun_registry.obj
+ 0004:00000378       $pdata$ssGetIsZeroCrossControlDisabled 0000000180017378     QPSK_send_new_sfun_registry.obj
+ 0004:00000384       $pdata$ssSetIsInputPortUsedForContZcSignal 0000000180017384     QPSK_send_new_sfun_registry.obj
+ 0004:00000390       $pdata$ssSetZcSignalIsZcElementDisc 0000000180017390     QPSK_send_new_sfun_registry.obj
+ 0004:0000039c       $pdata$ssSetZcSignalName   000000018001739c     QPSK_send_new_sfun_registry.obj
+ 0004:000003a8       $pdata$ssSetZcSignalWidth  00000001800173a8     QPSK_send_new_sfun_registry.obj
+ 0004:000003b4       $pdata$ssSetZcSignalZcEventType 00000001800173b4     QPSK_send_new_sfun_registry.obj
+ 0004:000003c0       $pdata$ssSetZcSignalType   00000001800173c0     QPSK_send_new_sfun_registry.obj
+ 0004:000003cc       $pdata$ssSetZcSignalZcTol  00000001800173cc     QPSK_send_new_sfun_registry.obj
+ 0004:000003d8       $pdata$ssSetZcSignalNeedsEventNotification 00000001800173d8     QPSK_send_new_sfun_registry.obj
+ 0004:000003e4       $pdata$ssCreateAndAddZcSignalInfo 00000001800173e4     QPSK_send_new_sfun_registry.obj
+ 0004:000003f0       $pdata$ssCloneAndAddZcSignalInfo 00000001800173f0     QPSK_send_new_sfun_registry.obj
+ 0004:000003fc       $pdata$ssGetNumZcSignals   00000001800173fc     QPSK_send_new_sfun_registry.obj
+ 0004:00000408       $pdata$ssGetZcSignalVector 0000000180017408     QPSK_send_new_sfun_registry.obj
+ 0004:00000414       $pdata$ssGetZcSignalName   0000000180017414     QPSK_send_new_sfun_registry.obj
+ 0004:00000420       $pdata$ssGetZcSignalWidth  0000000180017420     QPSK_send_new_sfun_registry.obj
+ 0004:0000042c       $pdata$ssGetZcSignalZcEventType 000000018001742c     QPSK_send_new_sfun_registry.obj
+ 0004:00000438       $pdata$ssGetZcSignalZcEvents 0000000180017438     QPSK_send_new_sfun_registry.obj
+ 0004:00000444       $pdata$ssGetZcSignalType   0000000180017444     QPSK_send_new_sfun_registry.obj
+ 0004:00000450       $pdata$ssGetZcSignalZcTol  0000000180017450     QPSK_send_new_sfun_registry.obj
+ 0004:0000045c       $pdata$ssGetZcSignalNeedsEventNotification 000000018001745c     QPSK_send_new_sfun_registry.obj
+ 0004:00000468       $pdata$ssGetZcSignalIsZcElementDisc 0000000180017468     QPSK_send_new_sfun_registry.obj
+ 0004:00000474       $pdata$ssGetIsInputPortElementContinuous 0000000180017474     QPSK_send_new_sfun_registry.obj
+ 0004:00000480       $pdata$_ssSetIWorkValueFcn 0000000180017480     QPSK_send_new_sfun_registry.obj
+ 0004:0000048c       $pdata$_ssGetIWorkValueFcn 000000018001748c     QPSK_send_new_sfun_registry.obj
+ 0004:00000498       $pdata$_ssSetRWorkValueFcn 0000000180017498     QPSK_send_new_sfun_registry.obj
+ 0004:000004a4       $pdata$_ssGetRWorkValueFcn 00000001800174a4     QPSK_send_new_sfun_registry.obj
+ 0004:000004b0       $pdata$_ssSetPWorkValueFcn 00000001800174b0     QPSK_send_new_sfun_registry.obj
+ 0004:000004bc       $pdata$_ssGetPWorkValueFcn 00000001800174bc     QPSK_send_new_sfun_registry.obj
+ 0004:000004c8       $pdata$ssGetDTypeIdFromMxArray 00000001800174c8     QPSK_send_new_sfun_registry.obj
+ 0004:000004d4       $pdata$ssWriteRTWStr       00000001800174d4     QPSK_send_new_sfun_registry.obj
+ 0004:000004e0       $pdata$ssWriteRTWNameValuePair 00000001800174e0     QPSK_send_new_sfun_registry.obj
+ 0004:000004ec       $pdata$ssWriteRTWParamSettings 00000001800174ec     QPSK_send_new_sfun_registry.obj
+ 0004:000004f8       $pdata$ssWriteRTWParameters 00000001800174f8     QPSK_send_new_sfun_registry.obj
+ 0004:00000504       $pdata$ssWriteRTWWorkVect  0000000180017504     QPSK_send_new_sfun_registry.obj
+ 0004:00000510       $pdata$ssWriteRTWMxVectParam 0000000180017510     QPSK_send_new_sfun_registry.obj
+ 0004:0000051c       $pdata$ssWriteRTWMx2dMatParam 000000018001751c     QPSK_send_new_sfun_registry.obj
+ 0004:00000528       $pdata$_ssSetInputPortMatrixDimensions 0000000180017528     QPSK_send_new_sfun_registry.obj
+ 0004:00000534       $pdata$_ssSetOutputPortMatrixDimensions 0000000180017534     QPSK_send_new_sfun_registry.obj
+ 0004:00000540       $pdata$_ssSetInputPortVectorDimension 0000000180017540     QPSK_send_new_sfun_registry.obj
+ 0004:0000054c       $pdata$_ssSetOutputPortVectorDimension 000000018001754c     QPSK_send_new_sfun_registry.obj
+ 0004:00000558       $pdata$ssIsRunTimeParamTunable 0000000180017558     QPSK_send_new_sfun_registry.obj
+ 0004:00000564       $pdata$ssGetSFuncBlockHandle 0000000180017564     QPSK_send_new_sfun_registry.obj
+ 0004:00000570       $pdata$_ssGetCurrentInputPortWidth 0000000180017570     QPSK_send_new_sfun_registry.obj
+ 0004:0000057c       $pdata$_ssGetCurrentOutputPortWidth 000000018001757c     QPSK_send_new_sfun_registry.obj
+ 0004:00000588       $pdata$_ssGetCallSystemNumFcnCallDestinations 0000000180017588     QPSK_send_new_sfun_registry.obj
+ 0004:00000594       $pdata$ssGetParameterTuningCompliance 0000000180017594     QPSK_send_new_sfun_registry.obj
+ 0004:000005a0       $pdata$ssWarning           00000001800175a0     QPSK_send_new_sfun_registry.obj
+ 0004:000005ac       $pdata$_ssGetAbsTol        00000001800175ac     QPSK_send_new_sfun_registry.obj
+ 0004:000005b8       $pdata$sf_process_check_sum_call 00000001800175b8     QPSK_send_new_sfun_registry.obj
+ 0004:000005c4       $pdata$sf_process_autoinheritance_call 00000001800175c4     QPSK_send_new_sfun_registry.obj
+ 0004:000005d0       $pdata$sf_process_get_third_party_uses_info_call 00000001800175d0     QPSK_send_new_sfun_registry.obj
+ 0004:000005dc       $pdata$sf_process_get_jit_fallback_info_call 00000001800175dc     QPSK_send_new_sfun_registry.obj
+ 0004:000005e8       $pdata$sf_process_get_updateBuildInfo_args_info_call 00000001800175e8     QPSK_send_new_sfun_registry.obj
+ 0004:000005f4       $pdata$sf_process_get_eml_resolved_functions_info_call 00000001800175f4     QPSK_send_new_sfun_registry.obj
+ 0004:00000600       $pdata$sf_mex_unlock_call  0000000180017600     QPSK_send_new_sfun_registry.obj
+ 0004:0000060c       $pdata$sf_debug_api_wrapper 000000018001760c     QPSK_send_new_sfun_registry.obj
+ 0004:00000618       $pdata$ProcessMexSfunctionCmdLineCall 0000000180017618     QPSK_send_new_sfun_registry.obj
+ 0004:00000624       $pdata$sf_machine_global_initializer_called 0000000180017624     QPSK_send_new_sfun_registry.obj
+ 0004:00000630       $pdata$sf_machine_global_method_dispatcher 0000000180017630     QPSK_send_new_sfun_registry.obj
+ 0004:0000063c       $pdata$sf_machine_global_terminator 000000018001763c     QPSK_send_new_sfun_registry.obj
+ 0004:00000648       $pdata$sf_register_machine_exported_symbols 0000000180017648     QPSK_send_new_sfun_registry.obj
+ 0004:00000654       $pdata$sf_machine_global_initializer 0000000180017654     QPSK_send_new_sfun_registry.obj
+ 0004:00000660       $pdata$mdlGetSimState      0000000180017660     QPSK_send_new_sfun_registry.obj
+ 0004:0000066c       $pdata$mdlSetSimState      000000018001766c     QPSK_send_new_sfun_registry.obj
+ 0004:00000678       $pdata$mdlSetWorkWidths    0000000180017678     QPSK_send_new_sfun_registry.obj
+ 0004:00000684       $pdata$mdlProcessParameters 0000000180017684     QPSK_send_new_sfun_registry.obj
+ 0004:00000690       $pdata$mdl_start_processing 0000000180017690     QPSK_send_new_sfun_registry.obj
+ 0004:0000069c       $pdata$mdl_terminate_processing 000000018001769c     QPSK_send_new_sfun_registry.obj
+ 0004:000006a8       $pdata$mdlStart            00000001800176a8     QPSK_send_new_sfun_registry.obj
+ 0004:000006b4       $pdata$mdlTerminate        00000001800176b4     QPSK_send_new_sfun_registry.obj
+ 0004:000006c0       $pdata$mdlInitializeSizes  00000001800176c0     QPSK_send_new_sfun_registry.obj
+ 0004:000006cc       $pdata$mdlInitializeSampleTimes 00000001800176cc     QPSK_send_new_sfun_registry.obj
+ 0004:000006d8       $pdata$mdl_outputs_continuous_legacy 00000001800176d8     QPSK_send_new_sfun_registry.obj
+ 0004:000006e4       $pdata$mdl_outputs_processing 00000001800176e4     QPSK_send_new_sfun_registry.obj
+ 0004:000006f0       $pdata$mdl_zeroCrossings_processing 00000001800176f0     QPSK_send_new_sfun_registry.obj
+ 0004:000006fc       $pdata$mdlZeroCrossings    00000001800176fc     QPSK_send_new_sfun_registry.obj
+ 0004:00000708       $pdata$mdl_derivatives_processing 0000000180017708     QPSK_send_new_sfun_registry.obj
+ 0004:00000714       $pdata$mdlDerivatives      0000000180017714     QPSK_send_new_sfun_registry.obj
+ 0004:00000720       $pdata$mdl_initialize_conditions_processing 0000000180017720     QPSK_send_new_sfun_registry.obj
+ 0004:0000072c       $pdata$mdlInitializeConditions 000000018001772c     QPSK_send_new_sfun_registry.obj
+ 0004:00000738       $pdata$mdl_ext_mode_exec_processing 0000000180017738     QPSK_send_new_sfun_registry.obj
+ 0004:00000744       $pdata$mdlExtModeExec      0000000180017744     QPSK_send_new_sfun_registry.obj
+ 0004:00000750       $pdata$mdlRTW              0000000180017750     QPSK_send_new_sfun_registry.obj
+ 0004:0000075c       $pdata$mdl_enable_processing 000000018001775c     QPSK_send_new_sfun_registry.obj
+ 0004:00000768       $pdata$mdlEnable           0000000180017768     QPSK_send_new_sfun_registry.obj
+ 0004:00000774       $pdata$mdl_disable_processing 0000000180017774     QPSK_send_new_sfun_registry.obj
+ 0004:00000780       $pdata$mdlDisable          0000000180017780     QPSK_send_new_sfun_registry.obj
+ 0004:0000078c       $pdata$mdlOutputs          000000018001778c     QPSK_send_new_sfun_registry.obj
+ 0004:00000798       $pdata$mdl_update_processing 0000000180017798     QPSK_send_new_sfun_registry.obj
+ 0004:000007a4       $pdata$mdlUpdate           00000001800177a4     QPSK_send_new_sfun_registry.obj
+ 0004:000007b0       $pdata$ProcessMexSfunctionEveryCall 00000001800177b0     QPSK_send_new_sfun_registry.obj
+ 0004:000007bc       $pdata$_RegNumInputPortsCB 00000001800177bc     QPSK_send_new_sfun_registry.obj
+ 0004:000007c8       $pdata$_RegNumOutputPortsCB 00000001800177c8     QPSK_send_new_sfun_registry.obj
+ 0004:000007d4       $pdata$_CreateSimStruct    00000001800177d4     QPSK_send_new_sfun_registry.obj
+ 0004:000007e0       $pdata$_ProcessMexSfunctionCmdLineCall 00000001800177e0     QPSK_send_new_sfun_registry.obj
+ 0004:000007ec       $pdata$ReportIndexOutOfBoundsError 00000001800177ec     QPSK_send_new_sfun_registry.obj
+ 0004:000007f8       $pdata$_vsnprintf_l        00000001800177f8     QPSK_send_new_sfun_registry.obj
+ 0004:00000804       $pdata$_vsprintf_l         0000000180017804     QPSK_send_new_sfun_registry.obj
+ 0004:00000810       $pdata$sprintf             0000000180017810     QPSK_send_new_sfun_registry.obj
+ 0004:0000081c       $pdata$__raise_securityfailure 000000018001781c     MSVCRT:gs_report.obj
+ 0004:00000828       $pdata$__report_gsfailure  0000000180017828     MSVCRT:gs_report.obj
+ 0004:00000834       $pdata$__report_rangecheckfailure 0000000180017834     MSVCRT:gs_report.obj
+ 0004:00000840       $pdata$__report_securityfailure 0000000180017840     MSVCRT:gs_report.obj
+ 0004:0000084c       $pdata$__report_securityfailureEx 000000018001784c     MSVCRT:gs_report.obj
+ 0004:00000858       $pdata$capture_current_context 0000000180017858     MSVCRT:gs_report.obj
+ 0004:00000864       $pdata$capture_previous_context 0000000180017864     MSVCRT:gs_report.obj
+ 0004:00000870       $pdata$__GSHandlerCheck    0000000180017870     MSVCRT:gshandler.obj
+ 0004:0000087c       $pdata$__GSHandlerCheckCommon 000000018001787c     MSVCRT:gshandler.obj
+ 0004:00000894       $pdata$?dllmain_crt_dispatch@@YAHQEAUHINSTANCE__@@KQEAX@Z 0000000180017894     MSVCRT:dll_dllmain.obj
+ 0004:000008a0       $pdata$?dllmain_crt_process_attach@@YAHQEAUHINSTANCE__@@QEAX@Z 00000001800178a0     MSVCRT:dll_dllmain.obj
+ 0004:000008ac       $pdata$?dllmain_crt_process_detach@@YAH_N@Z 00000001800178ac     MSVCRT:dll_dllmain.obj
+ 0004:000008b8       $pdata$?dllmain_dispatch@@YAHQEAUHINSTANCE__@@KQEAX@Z 00000001800178b8     MSVCRT:dll_dllmain.obj
+ 0004:000008c4       $pdata$_DllMainCRTStartup  00000001800178c4     MSVCRT:dll_dllmain.obj
+ 0004:000008d0       $pdata$__get_entropy       00000001800178d0     MSVCRT:gs_support.obj
+ 0004:000008dc       $pdata$__security_init_cookie 00000001800178dc     MSVCRT:gs_support.obj
+ 0004:000008e8       $pdata$DllMain             00000001800178e8     MSVCRT:dll_dllmain_stub.obj
+ 0004:000008f4       $pdata$__scrt_initialize_default_local_stdio_options 00000001800178f4     MSVCRT:default_local_stdio_options.obj
+ 0004:00000900       $pdata$?configure_argv@__scrt_narrow_argv_policy@@SAHXZ 0000000180017900     MSVCRT:utility.obj
+ 0004:0000090c       $pdata$__scrt_acquire_startup_lock 000000018001790c     MSVCRT:utility.obj
+ 0004:00000918       $pdata$__scrt_dllmain_after_initialize_c 0000000180017918     MSVCRT:utility.obj
+ 0004:00000924       $pdata$__scrt_dllmain_before_initialize_c 0000000180017924     MSVCRT:utility.obj
+ 0004:00000930       $pdata$__scrt_dllmain_crt_thread_attach 0000000180017930     MSVCRT:utility.obj
+ 0004:0000093c       $pdata$__scrt_dllmain_crt_thread_detach 000000018001793c     MSVCRT:utility.obj
+ 0004:00000948       $pdata$__scrt_dllmain_exception_filter 0000000180017948     MSVCRT:utility.obj
+ 0004:00000954       $pdata$__scrt_dllmain_uninitialize_c 0000000180017954     MSVCRT:utility.obj
+ 0004:00000960       $pdata$__scrt_dllmain_uninitialize_critical 0000000180017960     MSVCRT:utility.obj
+ 0004:0000096c       $pdata$__scrt_initialize_crt 000000018001796c     MSVCRT:utility.obj
+ 0004:00000978       $pdata$__scrt_initialize_onexit_tables 0000000180017978     MSVCRT:utility.obj
+ 0004:00000984       $pdata$__scrt_is_nonwritable_in_current_image 0000000180017984     MSVCRT:utility.obj
+ 0004:00000990       $pdata$__scrt_release_startup_lock 0000000180017990     MSVCRT:utility.obj
+ 0004:0000099c       $pdata$__scrt_uninitialize_crt 000000018001799c     MSVCRT:utility.obj
+ 0004:000009a8       $pdata$_onexit             00000001800179a8     MSVCRT:utility.obj
+ 0004:000009b4       $pdata$atexit              00000001800179b4     MSVCRT:utility.obj
+ 0004:000009c0       $pdata$__scrt_fastfail     00000001800179c0     MSVCRT:utility_desktop.obj
+ 0004:000009cc       $pdata$__scrt_get_show_window_mode 00000001800179cc     MSVCRT:utility_desktop.obj
+ 0004:000009d8       $pdata$__scrt_is_managed_app 00000001800179d8     MSVCRT:utility_desktop.obj
+ 0004:000009e4       $pdata$__scrt_unhandled_exception_filter 00000001800179e4     MSVCRT:utility_desktop.obj
+ 0004:000009f0       $pdata$_RTC_Initialize     00000001800179f0     MSVCRT:initsect.obj
+ 0004:000009fc       $pdata$_RTC_Terminate      00000001800179fc     MSVCRT:initsect.obj
+ 0004:00000a08       $pdata$__isa_available_init 0000000180017a08     MSVCRT:cpu_disp.obj
+ 0004:00000a20       $pdata$?fin$0@?0??dllmain_crt_process_attach@@YAHQEAUHINSTANCE__@@QEAX@Z@4HA 0000000180017a20     MSVCRT:dll_dllmain.obj
+ 0004:00000a2c       $pdata$?fin$0@?0??dllmain_crt_process_detach@@YAH_N@Z@4HA 0000000180017a2c     MSVCRT:dll_dllmain.obj
+ 0004:00000a38       $pdata$?filt$0@?0??dllmain_dispatch@@YAHQEAUHINSTANCE__@@KQEAX@Z@4HA 0000000180017a38     MSVCRT:dll_dllmain.obj
+ 0004:00000a44       $pdata$__scrt_is_nonwritable_in_current_image$filt$0 0000000180017a44     MSVCRT:utility.obj

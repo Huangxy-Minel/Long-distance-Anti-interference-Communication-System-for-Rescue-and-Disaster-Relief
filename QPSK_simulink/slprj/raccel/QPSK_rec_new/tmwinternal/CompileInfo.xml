@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<MF0 version="1.1">
+    <ModelRefInfoRepo.ModelRefInfoRoot type="ModelRefInfoRepo.ModelRefInfoRoot" uuid="dd364e16-9711-42be-8dfc-cb900f488321">
+        <dataDictionary/>
+        <dataTransferInfos>AAFJTQAAAAAOAAAAOAAAAAYAAAAIAAAAAgAAAAAAAAAFAAAACAAAAAAAAAABAAAAAQAAAAAAAAAFAAQAAQAAAAEAAAAAAAAA</dataTransferInfos>
+        <hasInlineVariantBlock>false</hasInlineVariantBlock>
+        <hasMachineDataAccess>false</hasMachineDataAccess>
+        <hasSigObjWithICDrivingRootOutport>false</hasSigObjWithICDrivingRootOutport>
+        <needElapsedTime>false</needElapsedTime>
+        <userSpecifiedFixedStepSize>0</userSpecifiedFixedStepSize>
+        <zeroInternalMemoryAtStartupUnchecked>false</zeroInternalMemoryAtStartupUnchecked>
+        <FMUBlockMap type="ModelRefInfoRepo.FMUBlockInfo" uuid="c0763cec-deb5-41a9-801f-8bd73e167d0e"/>
+        <periodicEventPortUnsupportedBlockInfo type="ModelRefInfoRepo.PeriodicEventPortUnsupportedBlockInfo" uuid="6be0124a-c6c8-4488-a429-d20f74b59066">
+            <deterministicRTBs>QPSK_rec_new/Rate Transition</deterministicRTBs>
+            <hasHiddenDeterministicRTB>false</hasHiddenDeterministicRTB>
+            <multiRateBlocks>QPSK_rec_new/Receiver/Buffer</multiRateBlocks>
+            <multiRateBlocks>QPSK_rec_new/Receiver/Fine Frequency Compensation/Unbuffer</multiRateBlocks>
+        </periodicEventPortUnsupportedBlockInfo>
+        <simulinkFunctions type="ModelRefInfoRepo.SimulinkFunctions" uuid="d3137ed4-b66a-4a52-bc5e-d53e85252dc8">
+            <compSimulinkFunctionCatalog>AAFJTQAAAAAOAAAAgAAAAAYAAAAIAAAAAgAAAAAAAAAFAAAACAAAAAEAAAABAAAAAQAAAAAAAAAFAAQADgAAAAEAAAAOAAAAQ29tcEZ1bmN0aW9ucwAAAA4AAAAwAAAABgAAAAgAAAAGAAAAAAAAAAUAAAAIAAAAAAAAAAAAAAABAAAAAAAAAAkAAAAAAAAA</compSimulinkFunctionCatalog>
+            <postPropHasAnyExportedFunction>false</postPropHasAnyExportedFunction>
+            <postPropHasAnyVariantExportedFunction>false</postPropHasAnyVariantExportedFunction>
+        </simulinkFunctions>
+    </ModelRefInfoRepo.ModelRefInfoRoot>
+</MF0>
